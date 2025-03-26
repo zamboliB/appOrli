@@ -1,37 +1,22 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream
-guid: 220ee9ca337873b459be33a766c2700b
+guid: 4d14023975984824a90b43d1cce8223f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1286392673496718182
-    second: Group 331 (3)_0
+      213: -5142593509558069610
+    second: IconVibra_0
   - first:
-      213: -3005018486609995439
-    second: Group 331 (3)_1
+      213: -5681432205048415019
+    second: IconVibra_1
   - first:
-      213: -4237492964765158540
-    second: Group 331 (3)_2
+      213: 297561479908955247
+    second: IconVibra_2
   - first:
-      213: -6002317804510239518
-    second: Group 331 (3)_3
-=======
-guid: a29891fe1f58eed4593b961e4597eab7
-TextureImporter:
-  internalIDToNameTable:
+      213: 4767799936735985669
+    second: IconVibra_3
   - first:
-      213: 2141188580037841102
-    second: Aura_0
-  - first:
-      213: 2120041081805082778
-    second: Aura_1
-  - first:
-      213: 7294571028295922015
-    second: Aura_2
-  - first:
-      213: -4074739354530446202
-    second: Aura_3
->>>>>>> Stashed changes
+      213: -4322856776157441811
+    second: IconVibra_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -153,23 +138,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-<<<<<<< Updated upstream
-      name: Group 331 (3)_0
+      name: IconVibra_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 358
-        width: 144
-        height: 162
-=======
-      name: Aura_0
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 470
-        width: 188
-        height: 212
->>>>>>> Stashed changes
+        x: 0
+        y: 123
+        width: 35
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,35 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<< Updated upstream
-      spriteID: 66bdf69225f2ad110800000000000000
-      internalID: 1286392673496718182
-=======
-      spriteID: ec057464ba707bd10800000000000000
-      internalID: 2141188580037841102
->>>>>>> Stashed changes
+      spriteID: 696df8e1376d1a8b0800000000000000
+      internalID: -5142593509558069610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< Updated upstream
-      name: Group 331 (3)_1
+      name: IconVibra_1
       rect:
         serializedVersion: 2
-        x: 22
-        y: 305
-        width: 58
-        height: 66
-=======
-      name: Aura_1
-      rect:
-        serializedVersion: 2
-        x: 29
-        y: 401
-        width: 76
-        height: 85
->>>>>>> Stashed changes
+        x: 3
+        y: 88
+        width: 65
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,35 +175,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<< Updated upstream
-      spriteID: 15911229b970c46d0800000000000000
-      internalID: -3005018486609995439
-=======
-      spriteID: a901a36a126eb6d10800000000000000
-      internalID: 2120041081805082778
->>>>>>> Stashed changes
+      spriteID: 5dcff92d28f7721b0800000000000000
+      internalID: -5681432205048415019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< Updated upstream
-      name: Group 331 (3)_2
+      name: IconVibra_2
       rect:
         serializedVersion: 2
-        x: 90
-        y: 55
-        width: 390
-        height: 390
-=======
-      name: Aura_2
-      rect:
-        serializedVersion: 2
-        x: 119
-        y: 73
-        width: 510
-        height: 510
->>>>>>> Stashed changes
+        x: 26
+        y: 18
+        width: 127
+        height: 126
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,35 +197,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<< Updated upstream
-      spriteID: 473b4f889966135c0800000000000000
-      internalID: -4237492964765158540
-=======
-      spriteID: f513f62b3b58b3560800000000000000
-      internalID: 7294571028295922015
->>>>>>> Stashed changes
+      spriteID: f6410d4e696212400800000000000000
+      internalID: 297561479908955247
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< Updated upstream
-      name: Group 331 (3)_3
+      name: IconVibra_3
       rect:
         serializedVersion: 2
-        x: 453
-        y: 4
-        width: 107
-        height: 120
-=======
-      name: Aura_3
-      rect:
-        serializedVersion: 2
-        x: 594
-        y: 6
-        width: 140
-        height: 156
->>>>>>> Stashed changes
+        x: 110
+        y: 0
+        width: 65
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,13 +219,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<< Updated upstream
-      spriteID: 2e42a2922cb73bca0800000000000000
-      internalID: -6002317804510239518
-=======
-      spriteID: 68488ec552e9377c0800000000000000
-      internalID: -4074739354530446202
->>>>>>> Stashed changes
+      spriteID: 500474518c0aa2240800000000000000
+      internalID: 4767799936735985669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconVibra_4
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 0
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0de326aa02204c0800000000000000
+      internalID: -4322856776157441811
       vertices: []
       indices: 
       edges: []
@@ -314,17 +261,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-<<<<<<< Updated upstream
-      Group 331 (3)_0: 1286392673496718182
-      Group 331 (3)_1: -3005018486609995439
-      Group 331 (3)_2: -4237492964765158540
-      Group 331 (3)_3: -6002317804510239518
-=======
-      Aura_0: 2141188580037841102
-      Aura_1: 2120041081805082778
-      Aura_2: 7294571028295922015
-      Aura_3: -4074739354530446202
->>>>>>> Stashed changes
+      IconVibra_0: -5142593509558069610
+      IconVibra_1: -5681432205048415019
+      IconVibra_2: 297561479908955247
+      IconVibra_3: 4767799936735985669
+      IconVibra_4: -4322856776157441811
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

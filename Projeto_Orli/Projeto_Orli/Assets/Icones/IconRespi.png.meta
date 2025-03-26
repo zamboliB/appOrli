@@ -1,37 +1,19 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream
-guid: 220ee9ca337873b459be33a766c2700b
+guid: 7e2cc1046c91966479c1813c76d7cc29
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1286392673496718182
-    second: Group 331 (3)_0
+      213: 9216051816461026967
+    second: IconRespi_0
   - first:
-      213: -3005018486609995439
-    second: Group 331 (3)_1
+      213: -3516014676375742779
+    second: IconRespi_1
   - first:
-      213: -4237492964765158540
-    second: Group 331 (3)_2
+      213: -5459601261085151691
+    second: IconRespi_2
   - first:
-      213: -6002317804510239518
-    second: Group 331 (3)_3
-=======
-guid: a29891fe1f58eed4593b961e4597eab7
-TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 2141188580037841102
-    second: Aura_0
-  - first:
-      213: 2120041081805082778
-    second: Aura_1
-  - first:
-      213: 7294571028295922015
-    second: Aura_2
-  - first:
-      213: -4074739354530446202
-    second: Aura_3
->>>>>>> Stashed changes
+      213: 6567798892476053891
+    second: IconRespi_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -153,23 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-<<<<<<< Updated upstream
-      name: Group 331 (3)_0
+      name: IconRespi_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 358
-        width: 144
-        height: 162
-=======
-      name: Aura_0
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 470
-        width: 188
-        height: 212
->>>>>>> Stashed changes
+        x: 0
+        y: 99
+        width: 72
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,35 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<< Updated upstream
-      spriteID: 66bdf69225f2ad110800000000000000
-      internalID: 1286392673496718182
-=======
-      spriteID: ec057464ba707bd10800000000000000
-      internalID: 2141188580037841102
->>>>>>> Stashed changes
+      spriteID: 796c0cf5c4ef5ef70800000000000000
+      internalID: 9216051816461026967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< Updated upstream
-      name: Group 331 (3)_1
+      name: IconRespi_1
       rect:
         serializedVersion: 2
-        x: 22
-        y: 305
-        width: 58
-        height: 66
-=======
-      name: Aura_1
-      rect:
-        serializedVersion: 2
-        x: 29
-        y: 401
-        width: 76
-        height: 85
->>>>>>> Stashed changes
+        x: 63
+        y: 30
+        width: 92
+        height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,35 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<< Updated upstream
-      spriteID: 15911229b970c46d0800000000000000
-      internalID: -3005018486609995439
-=======
-      spriteID: a901a36a126eb6d10800000000000000
-      internalID: 2120041081805082778
->>>>>>> Stashed changes
+      spriteID: 5c6509dc74b943fc0800000000000000
+      internalID: -3516014676375742779
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< Updated upstream
-      name: Group 331 (3)_2
+      name: IconRespi_2
       rect:
         serializedVersion: 2
-        x: 90
-        y: 55
-        width: 390
-        height: 390
-=======
-      name: Aura_2
-      rect:
-        serializedVersion: 2
-        x: 119
-        y: 73
-        width: 510
-        height: 510
->>>>>>> Stashed changes
+        x: 0
+        y: 68
+        width: 53
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,35 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<< Updated upstream
-      spriteID: 473b4f889966135c0800000000000000
-      internalID: -4237492964765158540
-=======
-      spriteID: f513f62b3b58b3560800000000000000
-      internalID: 7294571028295922015
->>>>>>> Stashed changes
+      spriteID: 53eaeb944999b34b0800000000000000
+      internalID: -5459601261085151691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< Updated upstream
-      name: Group 331 (3)_3
+      name: IconRespi_3
       rect:
         serializedVersion: 2
-        x: 453
-        y: 4
-        width: 107
-        height: 120
-=======
-      name: Aura_3
-      rect:
-        serializedVersion: 2
-        x: 594
-        y: 6
-        width: 140
-        height: 156
->>>>>>> Stashed changes
+        x: 0
+        y: 0
+        width: 98
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,13 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<< Updated upstream
-      spriteID: 2e42a2922cb73bca0800000000000000
-      internalID: -6002317804510239518
-=======
-      spriteID: 68488ec552e9377c0800000000000000
-      internalID: -4074739354530446202
->>>>>>> Stashed changes
+      spriteID: 3893d368b42852b50800000000000000
+      internalID: 6567798892476053891
       vertices: []
       indices: 
       edges: []
@@ -314,17 +236,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-<<<<<<< Updated upstream
-      Group 331 (3)_0: 1286392673496718182
-      Group 331 (3)_1: -3005018486609995439
-      Group 331 (3)_2: -4237492964765158540
-      Group 331 (3)_3: -6002317804510239518
-=======
-      Aura_0: 2141188580037841102
-      Aura_1: 2120041081805082778
-      Aura_2: 7294571028295922015
-      Aura_3: -4074739354530446202
->>>>>>> Stashed changes
+      IconRespi_0: 9216051816461026967
+      IconRespi_1: -3516014676375742779
+      IconRespi_2: -5459601261085151691
+      IconRespi_3: 6567798892476053891
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
