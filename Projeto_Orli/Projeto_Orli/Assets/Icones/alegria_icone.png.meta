@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: aa6b94c2d7891c44aa261bab4067c24b
+guid: 495aaa7cf0db9964497c6a5b95289985
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 667922453929634988
-    second: Group 331_0
-  - first:
-      213: 849689182937794811
-    second: Group 331_1
-  - first:
-      213: 5491213816799876662
-    second: Group 331_2
-  - first:
-      213: -7474625269124728867
-    second: Group 331_3
+      213: -2846076640506075743
+    second: Group 355_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -55,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -122,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Group 331_0
+      name: Group 355_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 358
-        width: 144
-        height: 162
+        x: 0
+        y: 0
+        width: 346
+        height: 413
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,74 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cacabfbdeefe44900800000000000000
-      internalID: 667922453929634988
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Group 331_1
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 305
-        width: 58
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bf8cf7e5fc3bacb00800000000000000
-      internalID: 849689182937794811
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Group 331_2
-      rect:
-        serializedVersion: 2
-        x: 90
-        y: 55
-        width: 390
-        height: 390
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 636d2186fd5b43c40800000000000000
-      internalID: 5491213816799876662
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Group 331_3
-      rect:
-        serializedVersion: 2
-        x: 453
-        y: 4
-        width: 107
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dd779a48bebc44890800000000000000
-      internalID: -7474625269124728867
+      spriteID: 1a52917ef54b088d0800000000000000
+      internalID: -2846076640506075743
       vertices: []
       indices: 
       edges: []
@@ -213,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -223,10 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Group 331_0: 667922453929634988
-      Group 331_1: 849689182937794811
-      Group 331_2: 5491213816799876662
-      Group 331_3: -7474625269124728867
+      Group 355_0: -2846076640506075743
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
