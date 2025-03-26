@@ -19,7 +19,11 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
+<<<<<<< Updated upstream
   m_Title: Inspector
+=======
+  m_Title: Scene
+>>>>>>> Stashed changes
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +52,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 16
+  controlID: 36
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -224,7 +228,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 17
+  controlID: 37
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -250,7 +254,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 18
+  controlID: 38
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -301,7 +305,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 613
+    y: 668
     width: 1266
     height: 318
   m_SerializedDataModeController:
@@ -338,14 +342,20 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\ra00345846\Documents\appOrli\Projeto_Orli\Projeto_Orli
+  m_LastProjectPath: C:\Users\ra00347094\Documents\GitHub\appOrli\Projeto_Orli\Projeto_Orli
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< Updated upstream
     m_SelectedIDs: b8b00000
     m_LastClickedID: 45240
     m_ExpandedIDs: 0000000058b00000
+=======
+    m_SelectedIDs: 0e040100
+    m_LastClickedID: 66574
+    m_ExpandedIDs: 00000000c4e8000000ca9a3bffffff7f
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -453,8 +463,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1268
-    y: 24
+    x: 1267
+    y: 79
     width: 652
     height: 907
   m_SerializedDataModeController:
@@ -503,7 +513,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 24
+    y: 79
     width: 306
     height: 563
   m_SerializedDataModeController:
@@ -522,7 +532,11 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< Updated upstream
       m_ExpandedIDs: 08fbffff40ae0000
+=======
+      m_ExpandedIDs: 4c24ffff4625ffffea25ffffc026ffff942affffa20c0100d20c0100
+>>>>>>> Stashed changes
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -568,8 +582,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 308
-    y: 24
+    x: 307
+    y: 79
     width: 958
     height: 563
   m_SerializedDataModeController:
@@ -1112,9 +1126,15 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
+<<<<<<< Updated upstream
     m_Target: {x: 0, y: 0, z: 0}
     speed: 2
     m_Value: {x: -242.86392, y: 145.76894, z: -4.0875974}
+=======
+    m_Target: {x: 347.1062, y: 302.33972, z: -3.917975}
+    speed: 2
+    m_Value: {x: 336.21573, y: 294.96127, z: -3.7449505}
+>>>>>>> Stashed changes
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1164,9 +1184,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< Updated upstream
     m_Target: 10
     speed: 2
     m_Value: 418.7589
+=======
+    m_Target: 401.7978
+    speed: 2
+    m_Value: 384.49548
+>>>>>>> Stashed changes
   m_Ortho:
     m_Target: 1
     speed: 2
