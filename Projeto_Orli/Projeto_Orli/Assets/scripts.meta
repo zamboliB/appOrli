@@ -1,6 +1,15 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Projeto_Orli/Projeto_Orli/Assets/scripts.meta
 guid: de3e96d65e65c8d4795ab689bcf82856
 folderAsset: yes
+========
+guid: 9d2ccdbbac10253439adfdb514fd6687
+>>>>>>>> Stashed changes:Projeto_Orli/Projeto_Orli/Assets/Scenes/Perfil_Orli_Luz.unity.meta
+=======
+guid: 8803306db52ffb1439143b62b1127b50
+folderAsset: yes
+>>>>>>> Stashed changes
 DefaultImporter:
   externalObjects: {}
   userData: 
