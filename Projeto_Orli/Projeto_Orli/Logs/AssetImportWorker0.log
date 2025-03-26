@@ -11,32 +11,19 @@ C:\Program Files\Unity\Hub\Editor\6000.0.35f1-x86_64\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-<<<<<<< Updated upstream
 C:/Users/ra00347094/Documents/GitHub/appOrli/Projeto_Orli/Projeto_Orli
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56778
-=======
-C:/Users/ra00347012/Documents/GitHub/appOrli/Projeto_Orli/Projeto_Orli
--logFile
-Logs/AssetImportWorker0.log
--srvPort
-53745
->>>>>>> Stashed changes
+58416
 -job-worker-count
 9
 -background-job-worker-count
 8
 -gc-helper-count
 1
-<<<<<<< Updated upstream
 Successfully changed project path to: C:/Users/ra00347094/Documents/GitHub/appOrli/Projeto_Orli/Projeto_Orli
 C:/Users/ra00347094/Documents/GitHub/appOrli/Projeto_Orli/Projeto_Orli
-=======
-Successfully changed project path to: C:/Users/ra00347012/Documents/GitHub/appOrli/Projeto_Orli/Projeto_Orli
-C:/Users/ra00347012/Documents/GitHub/appOrli/Projeto_Orli/Projeto_Orli
->>>>>>> Stashed changes
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -72,29 +59,16 @@ C:/Users/ra00347012/Documents/GitHub/appOrli/Projeto_Orli/Projeto_Orli
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-<<<<<<< Updated upstream
-Player connection [13952]  Target information:
+Player connection [22232]  Target information:
 
-Player connection [13952]  * "[IP] 172.17.3.27 [Port] 0 [Flags] 2 [Guid] 135434852 [EditorId] 135434852 [Version] 1048832 [Id] WindowsEditor(7,DSP-BRJ3055CGR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [22232]  * "[IP] 172.17.3.27 [Port] 0 [Flags] 2 [Guid] 3637248240 [EditorId] 3637248240 [Version] 1048832 [Id] WindowsEditor(7,DSP-BRJ3055CGR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [13952]  * "[IP] 172.19.80.1 [Port] 0 [Flags] 2 [Guid] 135434852 [EditorId] 135434852 [Version] 1048832 [Id] WindowsEditor(7,DSP-BRJ3055CGR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [22232]  * "[IP] 172.19.80.1 [Port] 0 [Flags] 2 [Guid] 3637248240 [EditorId] 3637248240 [Version] 1048832 [Id] WindowsEditor(7,DSP-BRJ3055CGR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [13952]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 135434852 [EditorId] 135434852 [Version] 1048832 [Id] WindowsEditor(7,DSP-BRJ3055CGR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [22232]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3637248240 [EditorId] 3637248240 [Version] 1048832 [Id] WindowsEditor(7,DSP-BRJ3055CGR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [13952] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [13952] Host joined alternative multi-casting on [225.0.0.222:34997]...
-=======
-Player connection [10324]  Target information:
-
-Player connection [10324]  * "[IP] 172.17.3.24 [Port] 0 [Flags] 2 [Guid] 1903655729 [EditorId] 1903655729 [Version] 1048832 [Id] WindowsEditor(7,DSP-BRJ3055CH3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [10324]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1903655729 [EditorId] 1903655729 [Version] 1048832 [Id] WindowsEditor(7,DSP-BRJ3055CH3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [10324]  * "[IP] 172.22.112.1 [Port] 0 [Flags] 2 [Guid] 1903655729 [EditorId] 1903655729 [Version] 1048832 [Id] WindowsEditor(7,DSP-BRJ3055CH3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [10324] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [10324] Host joined alternative multi-casting on [225.0.0.222:34997]...
->>>>>>> Stashed changes
+Player connection [22232] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22232] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -106,19 +80,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-<<<<<<< Updated upstream
-Refreshing native plugins compatible for Editor in 0.94 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.42 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.35f1 (9a3bc604008a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.35f1-x86_64/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/ra00347094/Documents/GitHub/appOrli/Projeto_Orli/Projeto_Orli/Assets
-=======
-Refreshing native plugins compatible for Editor in 1.75 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 6000.0.35f1 (9a3bc604008a)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.35f1-x86_64/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/ra00347012/Documents/GitHub/appOrli/Projeto_Orli/Projeto_Orli/Assets
->>>>>>> Stashed changes
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -130,88 +96,50 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1-x86_64/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
-<<<<<<< Updated upstream
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1-x86_64/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1-x86_64/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.002091 seconds.
-- Loaded All Assemblies, in  0.274 seconds
+Registered in 0.001932 seconds.
+- Loaded All Assemblies, in  0.287 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 165 ms
+Android Extension - Scanning For ADB Devices 1687 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.447 seconds
-Domain Reload Profiling: 722ms
-	BeginReloadAssembly (94ms)
-=======
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001123 seconds.
-- Loaded All Assemblies, in  0.322 seconds
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.306 seconds
-Domain Reload Profiling: 628ms
-	BeginReloadAssembly (119ms)
->>>>>>> Stashed changes
+- Finished resetting the current domain, in  1.978 seconds
+Domain Reload Profiling: 2265ms
+	BeginReloadAssembly (101ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-<<<<<<< Updated upstream
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (114ms)
-		LoadAssemblies (94ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (115ms)
+		LoadAssemblies (101ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (111ms)
-			TypeCache.Refresh (110ms)
-				TypeCache.ScanAssembly (100ms)
+		AnalyzeDomain (112ms)
+			TypeCache.Refresh (111ms)
+				TypeCache.ScanAssembly (101ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (448ms)
+	FinalizeReload (1978ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (414ms)
+		SetupLoadedEditorAssemblies (1946ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (236ms)
+			InitializePlatformSupportModulesInManaged (1765ms)
 			SetLoadedEditorAssemblies (3ms)
 			BeforeProcessingInitializeOnLoad (40ms)
-			ProcessInitializeOnLoadAttributes (89ms)
+			ProcessInitializeOnLoadAttributes (92ms)
 			ProcessInitializeOnLoadMethodAttributes (46ms)
-=======
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (127ms)
-		LoadAssemblies (118ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (124ms)
-			TypeCache.Refresh (123ms)
-				TypeCache.ScanAssembly (113ms)
-			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (306ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (262ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (49ms)
-			ProcessInitializeOnLoadAttributes (137ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
->>>>>>> Stashed changes
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -220,363 +148,90 @@ Domain Reload Profiling: 628ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-<<<<<<< Updated upstream
-- Loaded All Assemblies, in  0.569 seconds
-Refreshing native plugins compatible for Editor in 0.86 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.608 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 4 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.570 seconds
-Domain Reload Profiling: 1139ms
-	BeginReloadAssembly (124ms)
+- Finished resetting the current domain, in  0.584 seconds
+Domain Reload Profiling: 1191ms
+	BeginReloadAssembly (128ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (381ms)
-		LoadAssemblies (254ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (202ms)
-			TypeCache.Refresh (145ms)
-				TypeCache.ScanAssembly (131ms)
-			BuildScriptInfoCaches (48ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (571ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (468ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (80ms)
-			ProcessInitializeOnLoadAttributes (291ms)
-			ProcessInitializeOnLoadMethodAttributes (83ms)
-=======
-- Loaded All Assemblies, in  0.694 seconds
-Refreshing native plugins compatible for Editor in 1.12 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.726 seconds
-Domain Reload Profiling: 1419ms
-	BeginReloadAssembly (141ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (467ms)
-		LoadAssemblies (314ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (418ms)
+		LoadAssemblies (264ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (238ms)
-			TypeCache.Refresh (172ms)
-				TypeCache.ScanAssembly (157ms)
-			BuildScriptInfoCaches (54ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (727ms)
+		AnalyzeDomain (232ms)
+			TypeCache.Refresh (164ms)
+				TypeCache.ScanAssembly (149ms)
+			BuildScriptInfoCaches (57ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (584ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (577ms)
+		SetupLoadedEditorAssemblies (472ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (106ms)
-			ProcessInitializeOnLoadAttributes (359ms)
-			ProcessInitializeOnLoadMethodAttributes (103ms)
->>>>>>> Stashed changes
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (291ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-<<<<<<< Updated upstream
-Refreshing native plugins compatible for Editor in 0.86 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.92 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 220 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6548 unused Assets / (4.7 MB). Loaded Objects now: 7263.
-Memory consumption went from 176.4 MB to 171.7 MB.
-Total: 7.275500 ms (FindLiveObjects: 0.494100 ms CreateObjectMapping: 0.462500 ms MarkObjects: 4.209200 ms  DeleteObjects: 2.108300 ms)
+Unloading 6548 unused Assets / (4.4 MB). Loaded Objects now: 7263.
+Memory consumption went from 185.9 MB to 181.5 MB.
+Total: 6.860300 ms (FindLiveObjects: 0.495700 ms CreateObjectMapping: 0.451600 ms MarkObjects: 4.090200 ms  DeleteObjects: 1.821500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5798.514425 seconds.
-  path: Assets/Scenes/Perfil_Orli_Luz.unity
-  artifactKey: Guid(d08f0c5bdf065b042af88e392eea7413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Perfil_Orli_Luz.unity using Guid(d08f0c5bdf065b042af88e392eea7413) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '055c1abf37f655559f97e0fd5f50e61d') in 0.0038426 seconds
-=======
-Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 220 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6548 unused Assets / (5.1 MB). Loaded Objects now: 7260.
-Memory consumption went from 179.5 MB to 174.4 MB.
-Total: 8.696700 ms (FindLiveObjects: 0.732600 ms CreateObjectMapping: 0.582400 ms MarkObjects: 4.881900 ms  DeleteObjects: 2.497200 ms)
+  Time since last request: 7162.455544 seconds.
+  path: Assets/Imagens/Esboço - HOME (7).png
+  artifactKey: Guid(048a324246f497b4283a3717948af3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagens/Esboço - HOME (7).png using Guid(048a324246f497b4283a3717948af3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '892ef8875684d3e4eb2987b10113b731') in 0.0728735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5406.403744 seconds.
-  path: Assets/InputSystem_Actions.inputactions
-  artifactKey: Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InputSystem_Actions.inputactions using Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b2564eaa9f4e1c9db0aa8e3ea579112') in 0.0268733 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imagens/Group 331 (3).png
+  artifactKey: Guid(220ee9ca337873b459be33a766c2700b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagens/Group 331 (3).png using Guid(220ee9ca337873b459be33a766c2700b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '474f3e8f16d2d7af486039e2e581a9b8') in 0.0137474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Raleway-VariableFont_wght.ttf
-  artifactKey: Guid(8a2abbde215255648aac8e560e1e438d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Raleway-VariableFont_wght.ttf using Guid(8a2abbde215255648aac8e560e1e438d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6816f3616f638efe78510d7f6123872') in 0.4778553 seconds
+  Time since last request: 66.447834 seconds.
+  path: Assets/Fonts/Raleway-Bold SDF.asset
+  artifactKey: Guid(e25fcf461fbaa5f4193cd45174c28499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Raleway-Bold SDF.asset using Guid(e25fcf461fbaa5f4193cd45174c28499) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d6022846e7a42954ad031a65d52289b') in 0.3788808 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 133.010875 seconds.
-  path: Assets/Icones/bolinha_checkmark.png
-  artifactKey: Guid(818346ecc43e1f7458990965781d65f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Icones/bolinha_checkmark.png using Guid(818346ecc43e1f7458990965781d65f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20d7b57f7025a1baa07a7d248c668a8a') in 0.0293208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fonts/Raleway-Medium SDF.asset
+  artifactKey: Guid(fe79399cf2c0c68478248a0889bfd99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Raleway-Medium SDF.asset using Guid(fe79399cf2c0c68478248a0889bfd99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26984084e31bb84f5ac33cd5d2895a24') in 0.0673802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Icones/retangulo_preto.png
-  artifactKey: Guid(ff37d739780228b428b3387d809017c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Icones/retangulo_preto.png using Guid(ff37d739780228b428b3387d809017c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f87c46eafc84aa3469eeaecab8914fb') in 0.0182532 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.647123 seconds.
-  path: Assets/Settings/Lit2DSceneTemplate.scenetemplate
-  artifactKey: Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/Lit2DSceneTemplate.scenetemplate using Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '382aaec5713f9561e17e94da32f790cd') in 0.0713899 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.483156 seconds.
-  path: Assets/Scenes/Perfil_Orli_Luz.unity
-  artifactKey: Guid(d08f0c5bdf065b042af88e392eea7413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Perfil_Orli_Luz.unity using Guid(d08f0c5bdf065b042af88e392eea7413) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b834757e5e2ad6191a0199b9988eaa9') in 0.0006974 seconds
+  Time since last request: 47.793960 seconds.
+  path: Assets/Scenes/pagina_home.unity
+  artifactKey: Guid(15e38c280e432d048b21b246299858d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/pagina_home.unity using Guid(15e38c280e432d048b21b246299858d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcb76faf7a0b1d32e7a536708351bdb5') in 0.0005425 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-========================================================================
-Received Import Request.
-  Time since last request: 63.623680 seconds.
-  path: Assets/Fundos/Fundo_Padrao.png
-  artifactKey: Guid(63747d75094276141b553cc377371a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fundos/Fundo_Padrao.png using Guid(63747d75094276141b553cc377371a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcbda2fbe8bdde822af89163a638cc91') in 0.0607784 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 63.228529 seconds.
-  path: Assets/DefaultVolumeProfile.asset
-  artifactKey: Guid(3f9215ea0144899419cfbc0957140d3f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DefaultVolumeProfile.asset using Guid(3f9215ea0144899419cfbc0957140d3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '024f29ce59bcb3bb911394a85095f9ad') in 0.1707705 seconds
->>>>>>> Stashed changes
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
-  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '06b705dc3a417a17c9f0c6f9cf6a9586') in 0.0122637 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
-  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ceb130896cbcb8f0af660345985b865e') in 0.0088112 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
-  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '81923385ffc825874b52d630c0d81837') in 0.0289251 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Settings/Renderer2D.asset
-  artifactKey: Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/Renderer2D.asset using Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '74d98718171685d97a9a76f2260df5bd') in 0.040788 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
-  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c4e4e089f44470cdf5be7245a89d211f') in 0.0145987 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
-  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1bbecfc442160dc4f3f8b001c4fbd48c') in 0.0154848 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
-  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c1e34c20164c9387d3fc34e324381af7') in 0.0128005 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
-  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '22615935b40359a6b2caa88511cd5137') in 0.0131412 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
-  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '695bdfea36f3543ee95093f0b9f9e3d5') in 0.0132555 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Fundos/Fundo_Padrao.png
-  artifactKey: Guid(63747d75094276141b553cc377371a5c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Fundos/Fundo_Padrao.png using Guid(63747d75094276141b553cc377371a5c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5fe14266990723e17de36168a2037dff') in 0.0496501 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
-  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fea1124c60979aaf97fc5963d617bb8e') in 0.0100239 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Fonts/Raleway-VariableFont_wght SDF.asset
-  artifactKey: Guid(ead046a75b4d5274387ab620f631a672) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Fonts/Raleway-VariableFont_wght SDF.asset using Guid(ead046a75b4d5274387ab620f631a672) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d07ea85fa58044e03d7595796fbe97e') in 0.0509044 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
-  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '430778a5b2390d09db5043223df5290d') in 0.0165675 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c809a73af5c843fad16ce9b9a849c92d') in 0.0388805 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph
-  artifactKey: Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph using Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56d745fd99bdaa7ab8d9ca44a3ba96a4') in 0.2102233 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Raleway-VariableFont_wght.ttf
-  artifactKey: Guid(8a2abbde215255648aac8e560e1e438d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Raleway-VariableFont_wght.ttf using Guid(8a2abbde215255648aac8e560e1e438d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '64b015b40749d3491b779da90222ebd4') in 0.0187093 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph
-  artifactKey: Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph using Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '020a658295f5ca4247aab78b1a7e2745') in 0.0161295 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Settings/Lit2DSceneTemplate.scenetemplate
-  artifactKey: Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/Lit2DSceneTemplate.scenetemplate using Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '09dcc982f5aefd9d3f1b0a128a15a27f') in 0.0495848 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
-  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cd103227110adc5c06be8876a089b7df') in 0.0115887 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
-  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '88d3e6bd3f55669cf6cbc8eda328414e') in 0.0144184 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
-  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c8028ee57b1e3c14d2e0206d707c08e4') in 0.0126677 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Scenes/Perfil_Orli_Luz.unity
-  artifactKey: Guid(d08f0c5bdf065b042af88e392eea7413) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/Perfil_Orli_Luz.unity using Guid(d08f0c5bdf065b042af88e392eea7413) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '762109ad7da3d1b05edd35eb5b67c38e') in 0.0130588 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
-  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'abc71d0a2eafea4935738056bdd54304') in 0.0155449 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Icones/circunferencia_checkmark.png
-  artifactKey: Guid(df1bb8ce9e189e540937c25b652c04c3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Icones/circunferencia_checkmark.png using Guid(df1bb8ce9e189e540937c25b652c04c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '07c6c3caeea89cbbfd22e362c35973a3') in 0.0175059 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
