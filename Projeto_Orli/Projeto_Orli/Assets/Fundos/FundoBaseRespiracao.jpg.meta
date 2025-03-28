@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ab5cd75d5066d0c4e8952468d44df4ea
+guid: 9911bad0e573ea44c9f3a2ae2cf06b00
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2765203933791757268
-    second: Rectangle 48 (1)_0
+      213: -8054339018240149228
+    second: "Esbo\xE7o - Luzes_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Rectangle 48 (1)_0
+      name: "Esbo\xE7o - Luzes_0"
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 188
-        height: 60
+        width: 393
+        height: 852
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c2c54d24ca500a9d0800000000000000
-      internalID: -2765203933791757268
+      spriteID: 4193a3d265d393090800000000000000
+      internalID: -8054339018240149228
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Rectangle 48 (1)_0: -2765203933791757268
+      "Esbo\xE7o - Luzes_0": -8054339018240149228
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
