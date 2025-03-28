@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b96dbfa35636e8b46a014ec6aeaad600
+guid: 88d0fdd67862c1245b76c05135a50e8e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2287150099187687104
-    second: "Esbo\xE7o - Orli_0"
+      213: 2433294883196242628
+    second: Trash_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Esbo\xE7o - Orli_0"
+      name: Trash_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 393
-        height: 852
+        x: 11
+        y: 7
+        width: 74
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0412be54a196240e0800000000000000
-      internalID: -2287150099187687104
+      spriteID: 4ca00baddccc4c120800000000000000
+      internalID: 2433294883196242628
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Esbo\xE7o - Orli_0": -2287150099187687104
+      Trash_0: 2433294883196242628
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

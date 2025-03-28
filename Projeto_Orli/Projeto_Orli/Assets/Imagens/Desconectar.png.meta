@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: eb692ef7f3e31d44bbc703991deab370
+guid: e8777b1c00804e846a2bf93fc84aa656
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3622141061199612872
-    second: "bot\xE3o-comecar-sentir_0"
+      213: 895159034657014508
+    second: Group 316_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "bot\xE3o-comecar-sentir_0"
+      name: Group 316_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 360
-        height: 120
+        width: 416
+        height: 116
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8cbc82faa1e644230800000000000000
-      internalID: 3622141061199612872
+      spriteID: ce28636366e3c6c00800000000000000
+      internalID: 895159034657014508
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "bot\xE3o-comecar-sentir_0": 3622141061199612872
+      Group 316_0: 895159034657014508
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

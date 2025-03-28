@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: eb692ef7f3e31d44bbc703991deab370
+guid: fc9c3350a4a43344990f465d6768e48b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3622141061199612872
-    second: "bot\xE3o-comecar-sentir_0"
+      213: -2027595699768001626
+    second: radar_0
+  - first:
+      213: -2157069993494863645
+    second: radar_1
+  - first:
+      213: 4668995004699860487
+    second: radar_2
+  - first:
+      213: 6337911195082783346
+    second: radar_3
+  - first:
+      213: -1840582627391917660
+    second: radar_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,8 +58,8 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
-  spriteExtrude: 1
+  spriteMode: 1
+  spriteExtrude: 0
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -126,13 +138,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "bot\xE3o-comecar-sentir_0"
+      name: radar_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 360
-        height: 120
+        x: 3
+        y: 17
+        width: 16
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +153,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8cbc82faa1e644230800000000000000
-      internalID: 3622141061199612872
+      spriteID: 6abf73724788cd3e0800000000000000
+      internalID: -2027595699768001626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 26
+        width: 14
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0a512054c8012e0800000000000000
+      internalID: -2157069993494863645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e5539283a9bc040800000000000000
+      internalID: 4668995004699860487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar_3
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 26
+        width: 14
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a71e8f6a8c4f750800000000000000
+      internalID: 6337911195082783346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar_4
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 17
+        width: 16
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a1bc8a2adfe476e0800000000000000
+      internalID: -1840582627391917660
       vertices: []
       indices: 
       edges: []
@@ -151,7 +251,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +261,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "bot\xE3o-comecar-sentir_0": 3622141061199612872
+      radar_0: -2027595699768001626
+      radar_1: -2157069993494863645
+      radar_2: 4668995004699860487
+      radar_3: 6337911195082783346
+      radar_4: -1840582627391917660
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
