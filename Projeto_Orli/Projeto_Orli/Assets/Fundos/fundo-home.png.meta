@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 13a8c1d7d2f19b44ca77c7667c4d3a72
+guid: 11cc8e384c999f6409e0a6b02dc94343
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7196050290827801568
-    second: Group 483_0
+      213: 5473963798837127385
+    second: "Esbo\xE7o - HOME_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,30 +109,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Group 483_0
+      name: "Esbo\xE7o - HOME_0"
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1388
-        height: 1388
+        width: 393
+        height: 853
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 02ccc55036e722c90800000000000000
-      internalID: -7196050290827801568
+      spriteID: 9d8e80f921d67fb40800000000000000
+      internalID: 5473963798837127385
       vertices: []
       indices: 
       edges: []
@@ -161,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Group 483_0: -7196050290827801568
+      "Esbo\xE7o - HOME_0": 5473963798837127385
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

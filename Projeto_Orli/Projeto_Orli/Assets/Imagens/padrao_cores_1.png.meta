@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 13a8c1d7d2f19b44ca77c7667c4d3a72
+guid: aa54e6330e2177348be019120a648ac8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7196050290827801568
-    second: Group 483_0
+      213: -7537126453182711685
+    second: padrao_cores_1_0
+  - first:
+      213: 5853510907663590564
+    second: padrao_cores_1_1
+  - first:
+      213: 7721674657875852728
+    second: padrao_cores_1_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,30 +115,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Group 483_0
+      name: padrao_cores_1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1388
-        height: 1388
+        width: 73
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +134,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 02ccc55036e722c90800000000000000
-      internalID: -7196050290827801568
+      spriteID: b7838da9c6fb66790800000000000000
+      internalID: -7537126453182711685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padrao_cores_1_1
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 0
+        width: 74
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4a9244829db3150800000000000000
+      internalID: 5853510907663590564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padrao_cores_1_2
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 0
+        width: 73
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd73dda036e82b60800000000000000
+      internalID: 7721674657875852728
       vertices: []
       indices: 
       edges: []
@@ -160,8 +197,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Group 483_0: -7196050290827801568
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
