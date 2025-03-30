@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3a3d7c3c97f22e946a3c12cef1577bb1
+guid: bb3fad988f379414c87944caf46d3850
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7358308851612998930
-    second: confi_padrao_fritz_0
+      213: -1916347854920461886
+    second: confi-padrao e fritz_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: confi_padrao_fritz_0
+      name: confi-padrao e fritz_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ee2aeffd51902e990800000000000000
-      internalID: -7358308851612998930
+      spriteID: 2c1526977c3c765e0800000000000000
+      internalID: -1916347854920461886
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      confi_padrao_fritz_0: -7358308851612998930
+      confi-padrao e fritz_0: -1916347854920461886
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

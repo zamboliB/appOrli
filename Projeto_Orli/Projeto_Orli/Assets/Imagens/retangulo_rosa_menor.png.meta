@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      retangulo_rosa_menor_0: 6668115577665912876
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 3a3d7c3c97f22e946a3c12cef1577bb1
+guid: 190d6805832fd8b4abfdcab61f355fb4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7358308851612998930
-    second: confi_padrao_fritz_0
+      213: -2311657270437025
+    second: 4-7-8_0
+  - first:
+      213: -6336529065654181174
+    second: 4-7-8_1
+  - first:
+      213: 7646746873974983458
+    second: 4-7-8_2
+  - first:
+      213: 7689827373528506632
+    second: 4-7-8_3
+  - first:
+      213: -1914591768815516577
+    second: 4-7-8_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +58,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: confi_padrao_fritz_0
+      name: 4-7-8_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 2
         y: 0
-        width: 393
-        height: 852
+        width: 54
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +140,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ee2aeffd51902e990800000000000000
-      internalID: -7358308851612998930
+      spriteID: f5b9d895f89c7fff0800000000000000
+      internalID: -2311657270437025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-7-8_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 24
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2aebc13602018a0800000000000000
+      internalID: -6336529065654181174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-7-8_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b8b9684c3be1a60800000000000000
+      internalID: 7646746873974983458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-7-8_3
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 24
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 801ed37f041c7ba60800000000000000
+      internalID: 7689827373528506632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-7-8_4
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f544dd12ee00e65e0800000000000000
+      internalID: -1914591768815516577
       vertices: []
       indices: 
       edges: []
@@ -138,7 +238,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      confi_padrao_fritz_0: -7358308851612998930
+      4-7-8_0: -2311657270437025
+      4-7-8_1: -6336529065654181174
+      4-7-8_2: 7646746873974983458
+      4-7-8_3: 7689827373528506632
+      4-7-8_4: -1914591768815516577
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

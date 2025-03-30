@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fundo_padrao_fritz_0: 6172241981061208175
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
