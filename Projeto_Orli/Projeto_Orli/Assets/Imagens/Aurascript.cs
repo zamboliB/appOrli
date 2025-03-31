@@ -7,8 +7,8 @@ public class AuraButton : MonoBehaviour
 {
     public Button auraButton;          // O botão da aura
     public Image aura;                 // Primeira versão da aura (brilhando)
-    public Image aura_versao_2;        // Segunda versão da aura (brilhando diferente)
-    public Sprite alegria_icone;       // Imagem da aura sem brilho
+    public Image auraVersao2;          // Segunda versão da aura (brilhando diferente)
+    public Sprite alegriaIcone;        // Imagem da aura sem brilho
 
     private bool brilhoAtivo = true;
     private bool interagido = false;
@@ -24,9 +24,10 @@ public class AuraButton : MonoBehaviour
         }
         else
         {
-            CoroutineManager.Instance.StartCoroutine(LoopBrilho());
+            CoroutineHandler.Instance.StartCoroutine(LoopBrilho()); // Inicia o efeito de brilho
         }
     }
+
 
     IEnumerator LoopBrilho()
     {
@@ -37,30 +38,16 @@ public class AuraButton : MonoBehaviour
 
             // Ativa a primeira aura e desativa a segunda
             aura.gameObject.SetActive(true);
-            aura_versao_2.gameObject.SetActive(false);
-            yield return StartCoroutine(AjustarAura(aura, 0.9f, 1.0f, 1.0f, 1.05f, 2.0f)); // Escala mais sutil
+            auraVersao2.gameObject.SetActive(false);
+            yield return StartCoroutine(AjustarAura(aura, 0.9f, 1.0f, 1.0f, 1.1f, 1.2f));
 
             if (interagido)
                 yield break;
 
-            // Transição suave entre as auras
-            yield return StartCoroutine(TransicaoSuave());
-
             // Ativa a segunda aura e desativa a primeira
             aura.gameObject.SetActive(false);
-            aura_versao_2.gameObject.SetActive(true);
-            yield return StartCoroutine(AjustarAura(aura_versao_2, 1.0f, 0.9f, 1.0f, 1.05f, 2.0f)); // Escala mais sutil
-        }
-    }
-
-    IEnumerator TransicaoSuave()
-    {
-        // Suavizando a troca das auras antes da transição de volta
-        float t = 0;
-        while (t < 1)
-        {
-            t += Time.deltaTime * 0.5f; // Ajuste a velocidade da transição para ser mais suave
-            yield return null;
+            auraVersao2.gameObject.SetActive(true);
+            yield return StartCoroutine(AjustarAura(auraVersao2, 1.0f, 0.9f, 1.1f, 1.0f, 1.2f));
         }
     }
 
@@ -95,8 +82,8 @@ public class AuraButton : MonoBehaviour
         interagido = true;
         brilhoAtivo = false; // Para o loop de brilho
         aura.gameObject.SetActive(false);
-        aura_versao_2.gameObject.SetActive(false);
-        auraButton.image.sprite = alegria_icone; // Muda a imagem para a versão sem brilho
+        auraVersao2.gameObject.SetActive(false);
+        auraButton.image.sprite = alegriaIcone; // Muda a imagem para a versão sem brilho
 
         // Salva que a aura foi desativada
         PlayerPrefs.SetInt("AuraDesativada", 1);
