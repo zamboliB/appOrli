@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AlbumMixFeliz_0: -6050050559337971247
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

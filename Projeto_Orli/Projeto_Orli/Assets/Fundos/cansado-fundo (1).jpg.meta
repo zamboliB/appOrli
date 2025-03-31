@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 393338bd29da633448a2a73d4648d21c
+guid: caa8310e82b73ce48be2321699a81992
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3161780934301617880
-    second: AlbunAltoAstral_0
+      213: -9141584340990977269
+    second: cansado-fundo (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AlbunAltoAstral_0
+      name: cansado-fundo (1)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1125
-        height: 1125
+        width: 393
+        height: 852
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8217959fdf81f14d0800000000000000
-      internalID: -3161780934301617880
+      spriteID: b0b95fed971922180800000000000000
+      internalID: -9141584340990977269
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      AlbunAltoAstral_0: -3161780934301617880
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

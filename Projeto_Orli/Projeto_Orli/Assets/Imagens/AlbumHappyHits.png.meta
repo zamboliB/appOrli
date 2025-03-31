@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AlbumHappyHits_0: 1035344802109986952
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
