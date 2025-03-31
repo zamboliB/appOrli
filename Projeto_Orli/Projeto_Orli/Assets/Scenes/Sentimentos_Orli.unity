@@ -1788,6 +1788,7 @@ GameObject:
   - component: {fileID: 630785026}
   - component: {fileID: 630785025}
   - component: {fileID: 630785024}
+  - component: {fileID: 630785027}
   m_Layer: 5
   m_Name: Chateado
   m_TagString: Untagged
@@ -1897,6 +1898,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 630785022}
   m_CullTransparentMesh: 1
+--- !u!114 &630785027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630785022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1810683d1b0172b4ab0714e6dabf0755, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elementosParaMostrar: []
+  elementosParaEsconder: []
+  screenBackground: {fileID: 712000404}
+  backgroundSprite: {fileID: -4069557051628462246, guid: 05a7498913d92994a97434dc6080adda, type: 3}
+  buttonSprite: {fileID: -2730006406261690318, guid: 3850a72591e240541a494c4b0c7623c6, type: 3}
+  textColor: {r: 0.94509804, g: 0.9764706, b: 0.9764706, a: 1}
 --- !u!1 &649806704
 GameObject:
   m_ObjectHideFlags: 0
@@ -4717,9 +4736,9 @@ MonoBehaviour:
   elementosParaMostrar: []
   elementosParaEsconder: []
   screenBackground: {fileID: 712000404}
-  backgroundSprite: {fileID: -8655628075936924482, guid: eb6518c1f10c2874ea0061408fd5002e, type: 3}
+  backgroundSprite: {fileID: -3163820303979094680, guid: d763dc0efdee70d4fb646fbd3c2c187b, type: 3}
   buttonSprite: {fileID: -2730006406261690318, guid: 3850a72591e240541a494c4b0c7623c6, type: 3}
-  textColor: {r: 0.94509804, g: 0.9764706, b: 0.9764706, a: 0}
+  textColor: {r: 0.94509804, g: 0.9764706, b: 0.9764706, a: 1}
 --- !u!1 &2112905399
 GameObject:
   m_ObjectHideFlags: 0

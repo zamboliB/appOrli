@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: eb6518c1f10c2874ea0061408fd5002e
+guid: d763dc0efdee70d4fb646fbd3c2c187b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8655628075936924482
-    second: Avoado-fundo_0
+      213: -3163820303979094680
+    second: Avoado-fundo (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Avoado-fundo_0
+      name: Avoado-fundo (1)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ebcb1e9df1801e780800000000000000
-      internalID: -8655628075936924482
+      spriteID: 86d5828323ad714d0800000000000000
+      internalID: -3163820303979094680
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Avoado-fundo_0: -8655628075936924482
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
