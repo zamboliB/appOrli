@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ansioso-fundo (2)_0: -8007945216464817579
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

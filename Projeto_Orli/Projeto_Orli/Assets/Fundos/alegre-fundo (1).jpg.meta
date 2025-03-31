@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      alegre-fundo (1)_0: 5340850970862836852
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
