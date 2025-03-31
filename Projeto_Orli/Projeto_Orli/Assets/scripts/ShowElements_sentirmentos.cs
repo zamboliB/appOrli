@@ -1,10 +1,11 @@
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class ShowElements_sentirmentos : MonoBehaviour
 {
     public GameObject[] elementosParaMostrar; // Botões e textos que aparecerão
     public GameObject[] elementosParaEsconder; // Botão principal e textos que desaparecerão
-    public GameObject botaoVoltar; // Botão de voltar
 
     private bool estaVisivel = false;
 
@@ -23,34 +24,50 @@ public class ShowElements_sentirmentos : MonoBehaviour
         {
             elemento.SetActive(!estaVisivel);
         }
-
-        // Ativar o botão de voltar quando os novos elementos aparecerem
-        if (botaoVoltar != null)
-        {
-            botaoVoltar.SetActive(estaVisivel);
-        }
     }
 
-    public void Voltar()
+
+
+
+
+
+    public Image screenBackground; // Fundo da tela
+    public Sprite backgroundSprite; // Imagem de fundo da tela ao clicar no botão
+    public Sprite buttonSprite; // Nova imagem do botão
+    public Color textColor; // Nova cor do texto
+
+    private Image buttonImage;
+    private TextMeshProUGUI buttonText;
+
+    void Start()
     {
-        // Esconde os elementos mostrados
-        foreach (GameObject elemento in elementosParaMostrar)
-        {
-            elemento.SetActive(false);
-        }
+        buttonImage = GetComponent<Image>();
+        buttonText = GetComponentInChildren<TextMeshProUGUI>();
 
-        // Reaparece os elementos escondidos antes
-        foreach (GameObject elemento in elementosParaEsconder)
-        {
-            elemento.SetActive(true);
-        }
-
-        // Esconde o botão de voltar
-        if (botaoVoltar != null)
-        {
-            botaoVoltar.SetActive(false);
-        }
-
-        estaVisivel = false;
+        GetComponent<Button>().onClick.AddListener(ChangeEmotion);
     }
+
+    void ChangeEmotion()
+    {
+        if (screenBackground != null)
+        {
+            screenBackground.sprite = backgroundSprite;
+        }
+
+        if (buttonImage != null)
+        {
+            buttonImage.sprite = buttonSprite; 
+           
+        }
+
+        if (buttonText != null)
+        {
+            buttonText.color = textColor;
+        }
+    }
+
 }
+
+
+
+

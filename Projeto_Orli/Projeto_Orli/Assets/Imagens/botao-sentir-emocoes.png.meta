@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 00ce07428903c784787d943c7104738d
+guid: 3850a72591e240541a494c4b0c7623c6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4715982648749850498
-    second: Ellipse 127_0
+      213: -2730006406261690318
+    second: Rectangle 72 (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,17 +109,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ellipse 127_0
+      name: Rectangle 72 (1)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 52
-        height: 50
+        width: 198
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 28ff3a19b39827140800000000000000
-      internalID: 4715982648749850498
+      spriteID: 2303b3043a11d1ad0800000000000000
+      internalID: -2730006406261690318
       vertices: []
       indices: 
       edges: []
@@ -148,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Ellipse 127_0: 4715982648749850498
+      Rectangle 72 (1)_0: -2730006406261690318
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
