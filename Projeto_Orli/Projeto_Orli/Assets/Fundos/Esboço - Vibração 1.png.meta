@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f81931ffabc516e4ca1c51d67ca55fb2
+guid: 4a318d11efd502a40986542b07802069
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8515580809393196536
-    second: barra_7_0
+      213: 4034924477439734971
+    second: "Esbo\xE7o - Vibra\xE7\xE3o 1_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: barra_7_0
+      name: "Esbo\xE7o - Vibra\xE7\xE3o 1_0"
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 134
-        height: 509
+        width: 393
+        height: 852
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8023cff0f5492d980800000000000000
-      internalID: -8515580809393196536
+      spriteID: bb4f25d2f6eeef730800000000000000
+      internalID: 4034924477439734971
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      barra_7_0: -8515580809393196536
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
