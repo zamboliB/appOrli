@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AlbunSonsNatureza_0: -5480870561839922678
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

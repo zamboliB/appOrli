@@ -1144,7 +1144,7 @@ MonoBehaviour:
   elementosParaEsconder: []
   screenBackground: {fileID: 712000404}
   backgroundSprite: {fileID: 7554647578127399205, guid: 7b5e52480cd5cdb4aa28a9168b68a787, type: 3}
-  buttonSprite: {fileID: -342096879786956083, guid: 601a086f949e8524a8b1d7dd0c0ba2c7, type: 3}
+  buttonSprite: {fileID: -6889490530841049151, guid: df47285a7af28d643a10cb6f9b4d5c09, type: 3}
   textColor: {r: 0.94509804, g: 0.9764706, b: 0.9764706, a: 1}
 --- !u!1 &519420028
 GameObject:
@@ -1653,7 +1653,7 @@ MonoBehaviour:
   elementosParaEsconder: []
   screenBackground: {fileID: 712000404}
   backgroundSprite: {fileID: -4069557051628462246, guid: 05a7498913d92994a97434dc6080adda, type: 3}
-  buttonSprite: {fileID: -342096879786956083, guid: 601a086f949e8524a8b1d7dd0c0ba2c7, type: 3}
+  buttonSprite: {fileID: -6889490530841049151, guid: df47285a7af28d643a10cb6f9b4d5c09, type: 3}
   textColor: {r: 0.94509804, g: 0.9764706, b: 0.9764706, a: 1}
 --- !u!1 &649806704
 GameObject:
@@ -2424,7 +2424,7 @@ MonoBehaviour:
   elementosParaEsconder: []
   screenBackground: {fileID: 712000404}
   backgroundSprite: {fileID: 897073453681736846, guid: a7844efbb7c8ba444950e02058c2a925, type: 3}
-  buttonSprite: {fileID: -342096879786956083, guid: 601a086f949e8524a8b1d7dd0c0ba2c7, type: 3}
+  buttonSprite: {fileID: -6889490530841049151, guid: df47285a7af28d643a10cb6f9b4d5c09, type: 3}
   textColor: {r: 0.94509804, g: 0.9764706, b: 0.9764706, a: 1}
 --- !u!1 &1021184326
 GameObject:
@@ -3120,7 +3120,7 @@ MonoBehaviour:
   elementosParaEsconder: []
   screenBackground: {fileID: 712000404}
   backgroundSprite: {fileID: 8093318869194542507, guid: e9da71b98e4fc53439013c90ec5c2eda, type: 3}
-  buttonSprite: {fileID: -342096879786956083, guid: 601a086f949e8524a8b1d7dd0c0ba2c7, type: 3}
+  buttonSprite: {fileID: -6889490530841049151, guid: df47285a7af28d643a10cb6f9b4d5c09, type: 3}
   textColor: {r: 0.94509804, g: 0.9764706, b: 0.9764706, a: 1}
 --- !u!1 &1536303493
 GameObject:
@@ -3272,7 +3272,7 @@ MonoBehaviour:
   elementosParaEsconder: []
   screenBackground: {fileID: 712000404}
   backgroundSprite: {fileID: -8007945216464817579, guid: 0bc926dd5e44c754d8cd2199e94ec9ef, type: 3}
-  buttonSprite: {fileID: -342096879786956083, guid: 601a086f949e8524a8b1d7dd0c0ba2c7, type: 3}
+  buttonSprite: {fileID: -6889490530841049151, guid: df47285a7af28d643a10cb6f9b4d5c09, type: 3}
   textColor: {r: 0.94509804, g: 0.9764706, b: 0.9764706, a: 1}
 --- !u!1 &1581519700
 GameObject:
@@ -3639,7 +3639,7 @@ MonoBehaviour:
   elementosParaEsconder: []
   screenBackground: {fileID: 712000404}
   backgroundSprite: {fileID: 5155839522933329668, guid: 370a7da22e00a6c468a9f993492004cd, type: 3}
-  buttonSprite: {fileID: -342096879786956083, guid: 601a086f949e8524a8b1d7dd0c0ba2c7, type: 3}
+  buttonSprite: {fileID: -6889490530841049151, guid: df47285a7af28d643a10cb6f9b4d5c09, type: 3}
   textColor: {r: 0.94509804, g: 0.9764706, b: 0.9764706, a: 1}
 --- !u!1 &1757973948
 GameObject:
@@ -3912,7 +3912,7 @@ MonoBehaviour:
   elementosParaEsconder: []
   screenBackground: {fileID: 712000404}
   backgroundSprite: {fileID: 5340850970862836852, guid: 71fa8cbae12f5f4489587dcef90e299f, type: 3}
-  buttonSprite: {fileID: -342096879786956083, guid: 601a086f949e8524a8b1d7dd0c0ba2c7, type: 3}
+  buttonSprite: {fileID: -6889490530841049151, guid: df47285a7af28d643a10cb6f9b4d5c09, type: 3}
   textColor: {r: 0.94509804, g: 0.9764706, b: 0.9764706, a: 1}
 --- !u!1 &1875745163
 GameObject:
@@ -4338,7 +4338,7 @@ MonoBehaviour:
   elementosParaEsconder: []
   screenBackground: {fileID: 712000404}
   backgroundSprite: {fileID: -3163820303979094680, guid: d763dc0efdee70d4fb646fbd3c2c187b, type: 3}
-  buttonSprite: {fileID: -342096879786956083, guid: 601a086f949e8524a8b1d7dd0c0ba2c7, type: 3}
+  buttonSprite: {fileID: -6889490530841049151, guid: df47285a7af28d643a10cb6f9b4d5c09, type: 3}
   textColor: {r: 0.94509804, g: 0.9764706, b: 0.9764706, a: 1}
 --- !u!1 &2112905399
 GameObject:
@@ -4626,7 +4626,7 @@ MonoBehaviour:
   elementosParaEsconder: []
   screenBackground: {fileID: 712000404}
   backgroundSprite: {fileID: -9141584340990977269, guid: caa8310e82b73ce48be2321699a81992, type: 3}
-  buttonSprite: {fileID: -342096879786956083, guid: 601a086f949e8524a8b1d7dd0c0ba2c7, type: 3}
+  buttonSprite: {fileID: -6889490530841049151, guid: df47285a7af28d643a10cb6f9b4d5c09, type: 3}
   textColor: {r: 0.94509804, g: 0.9764706, b: 0.9764706, a: 1}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
