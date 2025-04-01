@@ -1008,7 +1008,7 @@ GameObject:
   - component: {fileID: 418456409}
   - component: {fileID: 418456412}
   m_Layer: 5
-  m_Name: Orgulhoso
+  m_Name: Emotion_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1078,14 +1078,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 649806710}
+        m_TargetAssemblyTypeName: EmotionSelector, Assembly-CSharp
+        m_MethodName: SelectEmotion
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 6
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1517,7 +1517,7 @@ GameObject:
   - component: {fileID: 630785024}
   - component: {fileID: 630785027}
   m_Layer: 5
-  m_Name: Chateado
+  m_Name: Emotion_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1586,7 +1586,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 630785025}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 649806710}
+        m_TargetAssemblyTypeName: EmotionSelector, Assembly-CSharp
+        m_MethodName: SelectEmotion
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &630785025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1656,6 +1668,7 @@ GameObject:
   - component: {fileID: 649806707}
   - component: {fileID: 649806706}
   - component: {fileID: 649806709}
+  - component: {fileID: 649806710}
   m_Layer: 5
   m_Name: Confirmar
   m_TagString: Untagged
@@ -1726,7 +1739,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 649806707}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 649806710}
+        m_TargetAssemblyTypeName: EmotionSelector, Assembly-CSharp
+        m_MethodName: ConfirmSelection
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &649806707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1783,6 +1808,19 @@ MonoBehaviour:
   backgroundSprite: {fileID: 0}
   buttonSprite: {fileID: 8730614907403811806, guid: 0068871737c88024384bda86a85458e1, type: 3}
   textColor: {r: 0.94509804, g: 0.9764706, b: 0.9764706, a: 1}
+--- !u!114 &649806710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649806704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b118d66e26106148a9a15e1d6b49b07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  graphManager: {fileID: 0}
 --- !u!1 &674833183
 GameObject:
   m_ObjectHideFlags: 0
@@ -2250,7 +2288,7 @@ GameObject:
   - component: {fileID: 913342580}
   - component: {fileID: 913342583}
   m_Layer: 5
-  m_Name: Entediado
+  m_Name: Emotion_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2319,7 +2357,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 913342581}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 649806710}
+        m_TargetAssemblyTypeName: EmotionSelector, Assembly-CSharp
+        m_MethodName: SelectEmotion
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 9
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &913342581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2934,7 +2984,7 @@ GameObject:
   - component: {fileID: 1320947728}
   - component: {fileID: 1320947731}
   m_Layer: 5
-  m_Name: Medroso
+  m_Name: Emotion_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3003,7 +3053,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1320947729}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 649806710}
+        m_TargetAssemblyTypeName: EmotionSelector, Assembly-CSharp
+        m_MethodName: SelectEmotion
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1320947729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3074,7 +3136,7 @@ GameObject:
   - component: {fileID: 1536303495}
   - component: {fileID: 1536303498}
   m_Layer: 5
-  m_Name: Ansioso
+  m_Name: Emotion_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3143,7 +3205,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1536303496}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 649806710}
+        m_TargetAssemblyTypeName: EmotionSelector, Assembly-CSharp
+        m_MethodName: SelectEmotion
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1536303496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3429,7 +3503,7 @@ GameObject:
   - component: {fileID: 1730099469}
   - component: {fileID: 1730099472}
   m_Layer: 5
-  m_Name: Irritado
+  m_Name: Emotion_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3498,7 +3572,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1730099470}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 649806710}
+        m_TargetAssemblyTypeName: EmotionSelector, Assembly-CSharp
+        m_MethodName: SelectEmotion
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1730099470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3690,7 +3776,7 @@ GameObject:
   - component: {fileID: 1847004477}
   - component: {fileID: 1847004480}
   m_Layer: 5
-  m_Name: Alegre
+  m_Name: Emotion_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3759,7 +3845,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1847004478}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 649806710}
+        m_TargetAssemblyTypeName: EmotionSelector, Assembly-CSharp
+        m_MethodName: SelectEmotion
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 8
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1847004478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4104,7 +4202,7 @@ GameObject:
   - component: {fileID: 1981322866}
   - component: {fileID: 1981322869}
   m_Layer: 5
-  m_Name: Avoado
+  m_Name: Emotion_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4173,7 +4271,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1981322867}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 649806710}
+        m_TargetAssemblyTypeName: EmotionSelector, Assembly-CSharp
+        m_MethodName: SelectEmotion
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 7
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1981322867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4380,7 +4490,7 @@ GameObject:
   - component: {fileID: 2117652827}
   - component: {fileID: 2117652830}
   m_Layer: 5
-  m_Name: Cansado
+  m_Name: Emotion_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4449,7 +4559,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2117652828}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 649806710}
+        m_TargetAssemblyTypeName: EmotionSelector, Assembly-CSharp
+        m_MethodName: SelectEmotion
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2117652828
 MonoBehaviour:
   m_ObjectHideFlags: 0
