@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PopupController : MonoBehaviour
 {
@@ -9,9 +10,6 @@ public class PopupController : MonoBehaviour
 
     void Start()
     {
-        // Inicialmente, o pop-up deve estar oculto
-        popupPanel.SetActive(false);
-
         // Adiciona ouvintes aos botões
         yesButton.onClick.AddListener(OnYesButtonClicked);
         noButton.onClick.AddListener(OnNoButtonClicked);
@@ -26,10 +24,11 @@ public class PopupController : MonoBehaviour
     // Ação ao clicar em "Sim"
     void OnYesButtonClicked()
     {
-        // Lógica para apagar a configuração
+        // Lógica para apagar a configuração, se necessário
         Debug.Log("Configuração apagada.");
-        popupPanel.SetActive(false);
-        // Adicione aqui a lógica para atualizar a interface ou estado após a deleção
+
+        // Carrega a cena "home"
+        SceneManager.LoadScene("home");
     }
 
     // Ação ao clicar em "Não"
