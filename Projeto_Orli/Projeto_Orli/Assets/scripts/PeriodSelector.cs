@@ -14,9 +14,12 @@ public class PeriodSelector : MonoBehaviour
     public Image yearlyBackground;
 
     // Gráficos (GameObjects ou UI Image)
-    public GameObject weeklyGraph;
+    public GameObject weeklyGraph;  // Atualiza automaticamente
     public GameObject monthlyGraph;
     public GameObject yearlyGraph;
+
+    // Referência ao EmotionGraphManager para esconder as barras
+    public EmotionGraphManager emotionGraphManager;
 
     private string activeGraph = "weekly"; // Sempre começa com o semanal ativo
 
@@ -51,10 +54,13 @@ public class PeriodSelector : MonoBehaviour
         bool isMonthly = (activeGraph == "monthly");
         bool isYearly = (activeGraph == "yearly");
 
-        // Ativa/desativa os gráficos
+        // **Ativa/desativa os gráficos corretamente**
         weeklyGraph.SetActive(isWeekly);
         monthlyGraph.SetActive(isMonthly);
         yearlyGraph.SetActive(isYearly);
+
+        // **Mostra/esconde as barras do gráfico semanal**
+        emotionGraphManager.SetGraphVisibility(isWeekly);
 
         // **Garante que só um fundo rosa aparece de cada vez**
         weeklyBackground.gameObject.SetActive(isWeekly);
@@ -62,3 +68,4 @@ public class PeriodSelector : MonoBehaviour
         yearlyBackground.gameObject.SetActive(isYearly);
     }
 }
+

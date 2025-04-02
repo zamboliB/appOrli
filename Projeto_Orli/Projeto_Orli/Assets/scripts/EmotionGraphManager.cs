@@ -9,11 +9,8 @@ public class EmotionGraphManager : MonoBehaviour
 
     void Start()
     {
-        if (emotionValues == null || emotionValues.Length == 0)
-        {
-            emotionValues = new int[9]; // Inicializa um array de 9 emoções com 0
-        }
-        UpdateGraph(); // Atualiza o gráfico sem sobrescrever os valores
+        // Definir valores iniciais de teste
+        SetEmotionData(new int[9]);
     }
 
     // Função para atualizar os valores do gráfico
@@ -24,13 +21,22 @@ public class EmotionGraphManager : MonoBehaviour
             UpdateEmotionBar(i, emotionValues[i]);
         }
     }
-
+    public void UpdateSingleEmotion(int emotionIndex)
+    {
+        if (emotionIndex >= 0 && emotionIndex < emotionValues.Length)
+        {
+            emotionValues[emotionIndex]++; // Aumenta o valor dessa emoção
+            if (emotionValues[emotionIndex] > 7)
+            {
+                emotionValues[emotionIndex] = 7; // Garante que não passe de 7
+            }
+            UpdateGraph(); // Atualiza o gráfico com o novo valor
+        }
+    }
     // Atualiza uma única barra de emoção
     void UpdateEmotionBar(int index, int value)
     {
-        if (index < 0 || index >= emotionBars.Length) return; // Evita erros de índice fora do limite
-
-        // Desativa todas as partes da barra antes de ativar a correta
+        // Desativa todas as partes da barra
         for (int j = 0; j < 8; j++)
         {
             emotionBars[index].transform.GetChild(j).gameObject.SetActive(false);
@@ -42,27 +48,30 @@ public class EmotionGraphManager : MonoBehaviour
             emotionBars[index].transform.GetChild(value).gameObject.SetActive(true);
         }
 
-        // Atualiza o texto para mostrar o valor correto com "D"
-        if (dayTexts[index] != null)
-        {
-            dayTexts[index].text = value.ToString() + "D";
-        }
+        // Atualiza o texto com a contagem de dias
+        dayTexts[index].text = value.ToString() + "D";
     }
 
     // Função para receber os dados externos (exemplo: vindos do app)
     public void SetEmotionData(int[] newValues)
     {
-        if (newValues.Length != emotionValues.Length) return; // Evita erro caso o array tenha tamanho errado
-
         emotionValues = newValues;
         UpdateGraph();
+
     }
-    public void UpdateSingleEmotion(int emotionIndex)
+
+    // **Nova função para ativar/desativar o gráfico**
+    public void SetGraphVisibility(bool isVisible)
     {
-        if (emotionIndex >= 0 && emotionIndex < 9)
+        foreach (var bar in emotionBars)
         {
-            emotionValues[emotionIndex]++; // Aumenta a contagem da emoção escolhida
-            UpdateGraph(); // Atualiza o gráfico
+            bar.SetActive(isVisible);
+        }
+
+        foreach (var text in dayTexts)
+        {
+            text.gameObject.SetActive(isVisible);
         }
     }
 }
+

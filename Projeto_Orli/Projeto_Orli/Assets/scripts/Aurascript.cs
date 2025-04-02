@@ -39,7 +39,8 @@ public class AuraButton : MonoBehaviour
             // Ativa a primeira aura e desativa a segunda
             aura.gameObject.SetActive(true);
             auraVersao2.gameObject.SetActive(false);
-            yield return StartCoroutine(AjustarAura(aura, 0.9f, 1.0f, 1.0f, 1.1f, 1.2f));
+            yield return new WaitForSeconds(1);
+            StartCoroutine(AjustarAura(aura, 0.9f, 1.0f, 1.0f, 1.1f, 1.2f));
 
             if (interagido)
                 yield break;
@@ -47,7 +48,8 @@ public class AuraButton : MonoBehaviour
             // Ativa a segunda aura e desativa a primeira
             aura.gameObject.SetActive(false);
             auraVersao2.gameObject.SetActive(true);
-            yield return StartCoroutine(AjustarAura(auraVersao2, 1.0f, 0.9f, 1.1f, 1.0f, 1.2f));
+            yield return new WaitForSeconds(1); 
+            StartCoroutine(AjustarAura(auraVersao2, 1.0f, 0.9f, 1.1f, 1.0f, 1.2f));
         }
     }
 

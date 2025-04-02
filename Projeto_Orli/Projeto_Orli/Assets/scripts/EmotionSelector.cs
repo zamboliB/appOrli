@@ -2,21 +2,26 @@ using UnityEngine;
 
 public class EmotionSelector : MonoBehaviour
 {
-    private int selectedEmotion = -1; // Nenhuma emoção escolhida inicialmente
-    public EmotionGraphManager graphManager; // Referência ao gráfico
+    private int selectedEmotion = -1;
+    public EmotionGraphManager graphManager;
+    public AuraButtonManager auraManager;
 
     public void SelectEmotion(int emotionNumber)
     {
-        selectedEmotion = emotionNumber - 1; // Ajusta de 1-9 para 0-8
+        selectedEmotion = emotionNumber - 1;
     }
 
     public void ConfirmSelection()
     {
-        if (selectedEmotion >= 0 && selectedEmotion < 9) // Garantir que seja válido
+        if (selectedEmotion >= 0 && selectedEmotion < 9)
         {
-            graphManager.UpdateSingleEmotion(selectedEmotion); // Atualiza o gráfico diretamente
+            graphManager.UpdateSingleEmotion(selectedEmotion);
+
+            if (auraManager != null)
+            {
+                auraManager.UpdateAuraState(selectedEmotion);
+            }
         }
     }
 }
-
 
