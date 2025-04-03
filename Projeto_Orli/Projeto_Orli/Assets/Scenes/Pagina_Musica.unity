@@ -407,6 +407,7 @@ GameObject:
   - component: {fileID: 258674299}
   - component: {fileID: 258674298}
   - component: {fileID: 258674297}
+  - component: {fileID: 258674300}
   m_Layer: 5
   m_Name: Album_HappyHits
   m_TagString: Untagged
@@ -476,7 +477,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 258674298}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 258674300}
+        m_TargetAssemblyTypeName: Spotifyfeliz, Assembly-CSharp
+        m_MethodName: OpenSpotify
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: playlist4
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &258674298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -515,6 +528,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 258674295}
   m_CullTransparentMesh: 1
+--- !u!114 &258674300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 258674295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef87eb755753be945bdeabdde983590c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &379567907
 GameObject:
   m_ObjectHideFlags: 0
@@ -1200,6 +1225,7 @@ GameObject:
   - component: {fileID: 548133474}
   - component: {fileID: 548133473}
   - component: {fileID: 548133472}
+  - component: {fileID: 548133475}
   m_Layer: 5
   m_Name: Album_MixFeliz
   m_TagString: Untagged
@@ -1269,7 +1295,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 548133473}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 548133475}
+        m_TargetAssemblyTypeName: Spotifyfeliz, Assembly-CSharp
+        m_MethodName: OpenSpotify
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: playlist5
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &548133473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1308,6 +1346,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 548133470}
   m_CullTransparentMesh: 1
+--- !u!114 &548133475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548133470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef87eb755753be945bdeabdde983590c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1486,6 +1536,7 @@ GameObject:
   - component: {fileID: 707471121}
   - component: {fileID: 707471120}
   - component: {fileID: 707471123}
+  - component: {fileID: 707471124}
   m_Layer: 5
   m_Name: Album_Meditacao
   m_TagString: Untagged
@@ -1556,16 +1607,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 707471123}
-        m_TargetAssemblyTypeName: Spotifyrelax, Assembly-CSharp
-        m_MethodName: OpenSpotifyPlaylist
-        m_Mode: 1
+      - m_Target: {fileID: 707471124}
+        m_TargetAssemblyTypeName: Spotifyfeliz, Assembly-CSharp
+        m_MethodName: OpenSpotify
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: playlist3
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &707471121
@@ -1618,6 +1669,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 824a18de3edee2c448604a6803b909b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &707471124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707471118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef87eb755753be945bdeabdde983590c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &714297682
 GameObject:
   m_ObjectHideFlags: 0
@@ -1630,6 +1693,7 @@ GameObject:
   - component: {fileID: 714297686}
   - component: {fileID: 714297685}
   - component: {fileID: 714297684}
+  - component: {fileID: 714297687}
   m_Layer: 5
   m_Name: Album_ManhaRelax
   m_TagString: Untagged
@@ -1699,7 +1763,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 714297685}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 714297687}
+        m_TargetAssemblyTypeName: Spotifyfeliz, Assembly-CSharp
+        m_MethodName: OpenSpotify
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: playlist1
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &714297685
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1738,6 +1814,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 714297682}
   m_CullTransparentMesh: 1
+--- !u!114 &714297687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714297682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef87eb755753be945bdeabdde983590c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &779213185
 GameObject:
   m_ObjectHideFlags: 0
@@ -1853,6 +1941,7 @@ GameObject:
   - component: {fileID: 834257964}
   - component: {fileID: 834257963}
   - component: {fileID: 834257962}
+  - component: {fileID: 834257965}
   m_Layer: 5
   m_Name: Album_InternacionalAnimadas
   m_TagString: Untagged
@@ -1922,7 +2011,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 834257963}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 834257965}
+        m_TargetAssemblyTypeName: Spotifyfeliz, Assembly-CSharp
+        m_MethodName: OpenSpotify
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: album1
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &834257963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1961,6 +2062,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 834257960}
   m_CullTransparentMesh: 1
+--- !u!114 &834257965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834257960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef87eb755753be945bdeabdde983590c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &986063507
 GameObject:
   m_ObjectHideFlags: 0
@@ -2123,6 +2236,7 @@ GameObject:
   - component: {fileID: 1080860052}
   - component: {fileID: 1080860051}
   - component: {fileID: 1080860050}
+  - component: {fileID: 1080860053}
   m_Layer: 5
   m_Name: Album_SonsNatureza
   m_TagString: Untagged
@@ -2192,7 +2306,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1080860051}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1080860053}
+        m_TargetAssemblyTypeName: Spotifyfeliz, Assembly-CSharp
+        m_MethodName: OpenSpotify
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: album3
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1080860051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2231,6 +2357,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1080860048}
   m_CullTransparentMesh: 1
+--- !u!114 &1080860053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080860048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef87eb755753be945bdeabdde983590c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1130557949
 GameObject:
   m_ObjectHideFlags: 0
@@ -2605,15 +2743,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1261829561}
-        m_TargetAssemblyTypeName: Spotifyvoce, Assembly-CSharp
-        m_MethodName: OpenSpotifyPlaylist
-        m_Mode: 1
+        m_TargetAssemblyTypeName: Spotifyfeliz, Assembly-CSharp
+        m_MethodName: OpenSpotify
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: album2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1261829559
@@ -2663,7 +2801,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1261829556}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f534050d3b82b744db1f8be1db71aa36, type: 3}
+  m_Script: {fileID: 11500000, guid: ef87eb755753be945bdeabdde983590c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1268583669
@@ -2751,14 +2889,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1268583674}
         m_TargetAssemblyTypeName: Spotifyfeliz, Assembly-CSharp
-        m_MethodName: OpenSpotifyPlaylist
-        m_Mode: 1
+        m_MethodName: OpenSpotify
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: playlist6
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1268583672
@@ -3113,6 +3251,7 @@ GameObject:
   - component: {fileID: 1841284175}
   - component: {fileID: 1841284174}
   - component: {fileID: 1841284173}
+  - component: {fileID: 1841284176}
   m_Layer: 5
   m_Name: Album_CalmaBrasil
   m_TagString: Untagged
@@ -3182,7 +3321,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1841284174}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1841284176}
+        m_TargetAssemblyTypeName: Spotifyfeliz, Assembly-CSharp
+        m_MethodName: OpenSpotify
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: playlist2
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1841284174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3221,6 +3372,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1841284171}
   m_CullTransparentMesh: 1
+--- !u!114 &1841284176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841284171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef87eb755753be945bdeabdde983590c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1995564241
 GameObject:
   m_ObjectHideFlags: 0
