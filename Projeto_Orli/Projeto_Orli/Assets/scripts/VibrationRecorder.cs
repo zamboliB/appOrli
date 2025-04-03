@@ -1,75 +1,46 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
-public class VibrationRecorder : MonoBehaviour
+public class VibrationRecorder : MonoBehaviour, IPointerClickHandler
 {
-    public GameObject barPrefab; // Prefab da barrinha
-    public Transform barContainer; // Container onde as barrinhas serão instanciadas
-    public Button playButton;
-    public Button recordButton;
+    public GameObject imagePrefab; // Prefab da imagem que será instanciada
+    public GameObject[] textsToHide; // Textos que desaparecerão no primeiro toque
+    public RectTransform panelRectTransform; // Referência do RectTransform do Panel
 
-    private List<float> vibrationTimings = new List<float>();
-    private float startTime;
-    private bool isRecording = false;
-    private bool isPlaying = false;
-    private List<GameObject> bars = new List<GameObject>();
+    private GameObject currentImage; // A imagem que será instanciada
+    private bool hasClicked = false; // Flag para garantir que o texto seja escondido apenas uma vez
 
-    void Start()
+    // Este método é chamado quando o usuário clica no Panel
+    public void OnPointerClick(PointerEventData eventData)
     {
-        recordButton.onClick.AddListener(StartRecording);
-        playButton.onClick.AddListener(PlayVibrationPattern);
-    }
+        Vector2 clickPosition = eventData.position; // Posição do clique na tela
 
-    void Update()
-    {
-        if (isRecording && Input.GetMouseButtonDown(0))
+        // Converte a posição do clique da tela para a coordenada local do Panel
+        Vector2 localPosition;
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(panelRectTransform, clickPosition, null, out localPosition);
+
+        // Se for o primeiro clique, esconde os textos explicativos
+        if (!hasClicked)
         {
-            float timeStamp = Time.time - startTime;
-            vibrationTimings.Add(timeStamp);
-            CreateBar(timeStamp);
-            Handheld.Vibrate(); // Simulação da vibração
+            foreach (GameObject text in textsToHide)
+            {
+                text.SetActive(false); // Esconde os textos explicativos
+            }
+            hasClicked = true; // Marca que o clique já aconteceu
         }
-    }
 
-    void StartRecording()
-    {
-        vibrationTimings.Clear();
-        startTime = Time.time;
-        isRecording = true;
-
-        foreach (GameObject bar in bars)
+        // Remove a imagem anterior, caso já exista
+        if (currentImage != null)
         {
-            Destroy(bar);
+            Destroy(currentImage);
         }
-        bars.Clear();
-    }
 
-    void PlayVibrationPattern()
-    {
-        if (vibrationTimings.Count > 0 && !isPlaying)
-        {
-            StartCoroutine(PlayPattern());
-        }
-    }
+        // Instancia a nova imagem dentro do Panel
+        currentImage = Instantiate(imagePrefab, panelRectTransform);
 
-    IEnumerator PlayPattern()
-    {
-        isPlaying = true;
-        foreach (float time in vibrationTimings)
-        {
-            yield return new WaitForSeconds(time - (Time.time - startTime));
-            Handheld.Vibrate(); // Simulação da vibração
-        }
-        isPlaying = false;
-    }
-
-    void CreateBar(float timeStamp)
-    {
-        GameObject newBar = Instantiate(barPrefab, barContainer);
-        float normalizedTime = timeStamp / 5.0f; // Assume duração máxima de 5s
-        newBar.transform.localPosition = new Vector3(normalizedTime * barContainer.GetComponent<RectTransform>().rect.width, 0, 0);
-        bars.Add(newBar);
+        // Ajusta a posição da nova imagem para o local do clique
+        RectTransform rectTransform = currentImage.GetComponent<RectTransform>();
+        rectTransform.localPosition = localPosition;
     }
 }
