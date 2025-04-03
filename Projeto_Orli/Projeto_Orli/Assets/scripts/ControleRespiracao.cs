@@ -11,6 +11,8 @@ public class ControleRespiracao : MonoBehaviour
 
     private float tempoAtual = 0f;
     private bool gravando = false;
+    private float tempoMaximo = 20f;
+    private float fillMaximo = 0.5f; // Limite máximo do preenchimento da elipse
 
     void Start()
     {
@@ -36,9 +38,9 @@ public class ControleRespiracao : MonoBehaviour
         {
             tempoAtual += Time.deltaTime;
 
-            if (tempoAtual > 20f) // Máximo de 20 segundos
+            if (tempoAtual > tempoMaximo) // Tempo máximo de 20 segundos
             {
-                tempoAtual = 20f;
+                tempoAtual = tempoMaximo;
                 PararGravacao();
             }
 
@@ -46,8 +48,8 @@ public class ControleRespiracao : MonoBehaviour
             int segundos = Mathf.FloorToInt(tempoAtual);
             tempoTexto.text = "00:" + segundos.ToString("00");
 
-            // Atualiza o preenchimento da elipse
-            circuloProgresso.fillAmount = tempoAtual / 20f;
+            // Atualiza o preenchimento da elipse (proporcionalmente até 0.5)
+            circuloProgresso.fillAmount = (tempoAtual / tempoMaximo) * fillMaximo;
         }
     }
 
@@ -80,6 +82,21 @@ public class ControleRespiracao : MonoBehaviour
 
     void SalvarTempo()
     {
-        toggleExibirTempo.GetComponentInChildren<TMP_Text>().text = "Tempo salvo: " + Mathf.FloorToInt(tempoAtual) + "s";
+        // Encontra o texto "TempoSalvo" dentro do Toggle
+        TMP_Text[] textos = toggleExibirTempo.GetComponentsInChildren<TMP_Text>();
+
+        foreach (TMP_Text texto in textos)
+        {
+            if (texto.name == "TempoSalvo")
+            {
+                // Arredonda o tempo e atualiza o texto
+                texto.text = Mathf.RoundToInt(tempoAtual).ToString();
+                return; // Sai da função assim que encontrar e atualizar o texto certo
+            }
+        }
+
+        // Caso não encontre, exibe um aviso no console
+        Debug.LogWarning("Não foi encontrado um texto com o nome 'TempoSalvo' dentro do Toggle!");
     }
+
 }
