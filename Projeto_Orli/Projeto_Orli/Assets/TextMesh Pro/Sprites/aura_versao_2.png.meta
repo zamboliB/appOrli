@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: ae4b287d28b6d11498632f9512c8980b
+guid: ba92fa09fd516b044ab18ffca9bb2447
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9008807642094452569
-    second: Group 402_0
+      213: -2164338198520711419
+    second: Group 445_0
+  - first:
+      213: -3792696133216368000
+    second: Group 445_1
+  - first:
+      213: 3234066264481559866
+    second: Group 445_2
+  - first:
+      213: -7331936755814832659
+    second: Group 445_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +55,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 0
   alignment: 0
@@ -126,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Group 402_0
+      name: Group 445_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 0
-        width: 541
-        height: 593
+        x: 14
+        y: 681
+        width: 317
+        height: 357
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +150,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 95f3ddcd1d6b50d70800000000000000
-      internalID: 9008807642094452569
+      spriteID: 5073d5720e9b6f1e0800000000000000
+      internalID: -2164338198520711419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Group 445_1
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 996
+        width: 206
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a04ae16f2ad5bc0800000000000000
+      internalID: -3792696133216368000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Group 445_2
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 35
+        width: 1106
+        height: 1106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a357f7af126b1ec20800000000000000
+      internalID: 3234066264481559866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Group 445_3
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 7
+        width: 189
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5e60aed5abf3a90800000000000000
+      internalID: -7331936755814832659
       vertices: []
       indices: 
       edges: []
@@ -151,7 +226,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +236,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Group 402_0: 9008807642094452569
+      Group 445_0: -2164338198520711419
+      Group 445_1: -3792696133216368000
+      Group 445_2: 3234066264481559866
+      Group 445_3: -7331936755814832659
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
