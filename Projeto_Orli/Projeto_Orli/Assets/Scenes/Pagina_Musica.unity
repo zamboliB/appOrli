@@ -3633,7 +3633,7 @@ GameObject:
   - component: {fileID: 879487926}
   - component: {fileID: 879487925}
   m_Layer: 5
-  m_Name: Musica
+  m_Name: frequencias panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3659,7 +3659,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000015258789, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &879487925
@@ -6046,7 +6046,7 @@ GameObject:
   - component: {fileID: 1622816878}
   - component: {fileID: 1622816877}
   m_Layer: 5
-  m_Name: Musica2
+  m_Name: natureza panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
