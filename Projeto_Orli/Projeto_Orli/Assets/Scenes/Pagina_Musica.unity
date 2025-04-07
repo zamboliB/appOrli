@@ -556,6 +556,7 @@ GameObject:
   - component: {fileID: 216952478}
   - component: {fileID: 216952477}
   - component: {fileID: 216952476}
+  - component: {fileID: 216952479}
   m_Layer: 5
   m_Name: Natureza
   m_TagString: Untagged
@@ -626,7 +627,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 216952477}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 216952479}
+        m_TargetAssemblyTypeName: tabbar, Assembly-CSharp
+        m_MethodName: TrocarAba
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &216952477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -665,6 +678,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 216952474}
   m_CullTransparentMesh: 1
+--- !u!114 &216952479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216952474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc57824957e81f04da7c7aa9eb931ded, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  abas: []
+  duracaoTransicao: 0.25
 --- !u!1 &222915302
 GameObject:
   m_ObjectHideFlags: 0
@@ -2286,6 +2313,7 @@ GameObject:
   - component: {fileID: 649491812}
   - component: {fileID: 649491814}
   - component: {fileID: 649491813}
+  - component: {fileID: 649491815}
   m_Layer: 5
   m_Name: Musica
   m_TagString: Untagged
@@ -2305,10 +2333,10 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1195882029}
   - {fileID: 1822152411}
   - {fileID: 879487924}
   - {fileID: 1622816876}
+  - {fileID: 1195882029}
   m_Father: {fileID: 779213189}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2354,6 +2382,44 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 649491811}
   m_CullTransparentMesh: 1
+--- !u!114 &649491815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649491811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc57824957e81f04da7c7aa9eb931ded, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  abas:
+  - botao: {fileID: 1350998398}
+    icone: {fileID: 1350998399}
+    spriteAtivo: {fileID: 5762585607577163010, guid: 6dc0b238374a96049959834ac68795ce, type: 3}
+    spriteInativo: {fileID: -2266860746077636603, guid: 4aa5e25c56ad52f49a58185903346001, type: 3}
+    texto: {fileID: 795064502}
+    corAtivo: {r: 0.94509804, g: 0.9764706, b: 0.9764706, a: 1}
+    corInativo: {r: 0.94509804, g: 0.9764706, b: 0.9764706, a: 1}
+    painel: {fileID: 1822152410}
+  - botao: {fileID: 1888470905}
+    icone: {fileID: 1888470906}
+    spriteAtivo: {fileID: 5762585607577163010, guid: 6dc0b238374a96049959834ac68795ce, type: 3}
+    spriteInativo: {fileID: -2266860746077636603, guid: 4aa5e25c56ad52f49a58185903346001, type: 3}
+    texto: {fileID: 795064502}
+    corAtivo: {r: 0.94509804, g: 0.9764706, b: 0.9764706, a: 1}
+    corInativo: {r: 0.94509804, g: 0.9764706, b: 0.9764706, a: 1}
+    painel: {fileID: 879487923}
+  - botao: {fileID: 216952476}
+    icone: {fileID: 216952477}
+    spriteAtivo: {fileID: 5762585607577163010, guid: 6dc0b238374a96049959834ac68795ce, type: 3}
+    spriteInativo: {fileID: -2266860746077636603, guid: 4aa5e25c56ad52f49a58185903346001, type: 3}
+    texto: {fileID: 795064502}
+    corAtivo: {r: 0.94509804, g: 0.9764706, b: 0.9764706, a: 1}
+    corInativo: {r: 0.94509804, g: 0.9764706, b: 0.9764706, a: 1}
+    painel: {fileID: 1622816875}
+  duracaoTransicao: 0.25
 --- !u!1 &670513796
 GameObject:
   m_ObjectHideFlags: 0
@@ -4946,7 +5012,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000026226, y: 284.6}
+  m_AnchoredPosition: {x: -0, y: 284.6}
   m_SizeDelta: {x: 343.987, y: 49.987}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1195882030
@@ -5577,28 +5643,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1350998401}
-        m_TargetAssemblyTypeName: deslizarmusica, Assembly-CSharp
-        m_MethodName: AtivarAba
-        m_Mode: 1
+        m_TargetAssemblyTypeName: tabbar, Assembly-CSharp
+        m_MethodName: TrocarAba
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1350998401}
-        m_TargetAssemblyTypeName: deslizarmusica, Assembly-CSharp
-        m_MethodName: ResetarBotao
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1350998399
 MonoBehaviour:
@@ -5647,19 +5701,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1350998396}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44a573ab812d9c842b7bc61e646e030d, type: 3}
+  m_Script: {fileID: 11500000, guid: dc57824957e81f04da7c7aa9eb931ded, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  painelParaMostrar: {fileID: 1822152410}
-  paineisParaEsconder:
-  - {fileID: 879487923}
-  - {fileID: 1622816875}
-  buttonImage: {fileID: 879487925}
-  buttonSpriteAtivo: {fileID: -1748868632991635124, guid: f0ee84f5c8c92db42ab7a158ebda6c05, type: 3}
-  buttonSpriteInativo: {fileID: -2266860746077636603, guid: 4aa5e25c56ad52f49a58185903346001, type: 3}
-  buttonText: {fileID: 795064502}
-  textoCorAtivo: {r: 0.94509804, g: 0.9764706, b: 0.9764706, a: 1}
-  textoCorInativo: {r: 0.94509804, g: 0.9764706, b: 0.9764706, a: 1}
+  abas: []
+  duracaoTransicao: 0.25
 --- !u!1 &1453939517
 GameObject:
   m_ObjectHideFlags: 0
@@ -6400,7 +6446,6 @@ GameObject:
   - component: {fileID: 1822152411}
   - component: {fileID: 1822152414}
   - component: {fileID: 1822152413}
-  - component: {fileID: 1822152412}
   m_Layer: 5
   m_Name: musicas panel
   m_TagString: Untagged
@@ -6431,26 +6476,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0.000061035156}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1822152412
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1822152410}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44a573ab812d9c842b7bc61e646e030d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  painelParaMostrar: {fileID: 0}
-  paineisParaEsconder: []
-  buttonImage: {fileID: 0}
-  buttonSpriteAtivo: {fileID: 0}
-  buttonSpriteInativo: {fileID: 0}
-  buttonText: {fileID: 0}
-  textoCorAtivo: {r: 0, g: 0, b: 0, a: 0}
-  textoCorInativo: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1822152413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6939,25 +6964,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1888470908}
-        m_TargetAssemblyTypeName: deslizarmusica, Assembly-CSharp
-        m_MethodName: AtivarAba
-        m_Mode: 1
+        m_TargetAssemblyTypeName: tabbar, Assembly-CSharp
+        m_MethodName: TrocarAba
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1888470908}
-        m_TargetAssemblyTypeName: deslizarmusica, Assembly-CSharp
-        m_MethodName: ResetarBotao
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -7009,19 +7022,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1888470903}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44a573ab812d9c842b7bc61e646e030d, type: 3}
+  m_Script: {fileID: 11500000, guid: dc57824957e81f04da7c7aa9eb931ded, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  painelParaMostrar: {fileID: 879487923}
-  paineisParaEsconder:
-  - {fileID: 1822152410}
-  - {fileID: 1622816875}
-  buttonImage: {fileID: 216952477}
-  buttonSpriteAtivo: {fileID: -1748868632991635124, guid: f0ee84f5c8c92db42ab7a158ebda6c05, type: 3}
-  buttonSpriteInativo: {fileID: -2266860746077636603, guid: 4aa5e25c56ad52f49a58185903346001, type: 3}
-  buttonText: {fileID: 647112771}
-  textoCorAtivo: {r: 0, g: 0, b: 0, a: 0}
-  textoCorInativo: {r: 0, g: 0, b: 0, a: 0}
+  abas: []
+  duracaoTransicao: 0.25
 --- !u!1 &1951673777
 GameObject:
   m_ObjectHideFlags: 0
