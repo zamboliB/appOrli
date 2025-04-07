@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a02d99551e433e040adc0494f735e9db
+guid: 289aca24ec50b624eadabd440546d497
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5579529829049897215
-    second: "Esbo\xE7o - Vibra\xE7\xE3o_0"
+      213: 3953130265186288542
+    second: Barulhodechuva_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,30 +109,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Esbo\xE7o - Vibra\xE7\xE3o_0"
+      name: Barulhodechuva_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 393
-        height: 852
+        width: 1125
+        height: 1125
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 10fe8cd9e278192b0800000000000000
-      internalID: -5579529829049897215
+      spriteID: e93464718075cd630800000000000000
+      internalID: 3953130265186288542
       vertices: []
       indices: 
       edges: []
@@ -160,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      "Esbo\xE7o - Vibra\xE7\xE3o_0": -5579529829049897215
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
