@@ -11,6 +11,7 @@ public class ColorPick : MonoBehaviour, IPointerClickHandler
     {
         // Get the Image component and RectTransform
         image = GetComponent<Image>();
+
         rectTransform = GetComponent<RectTransform>();
     }
 

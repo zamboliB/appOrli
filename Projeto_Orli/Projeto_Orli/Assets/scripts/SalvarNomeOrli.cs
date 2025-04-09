@@ -2,11 +2,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro; // Importa o TextMeshPro
 
-public class SalvarNomeOrli : MonoBehaviour
+public class SalvarNomeOrli: MonoBehaviour
 {
     public TMP_InputField inputNome;  // Campo onde o usuário digita o nome
-    public TMP_Text textoNomePerfil;  // Texto onde o nome salvo aparece no perfil
-    public TMP_Text textoNomeHome;    // Texto onde o nome salvo aparece na home
+    public TMP_Text textoNome;  // Texto onde o nome salvo aparece no perfil
 
     void Start()
     {
@@ -14,8 +13,7 @@ public class SalvarNomeOrli : MonoBehaviour
         if (PlayerPrefs.HasKey("NomeOrli"))
         {
             string nomeSalvo = PlayerPrefs.GetString("NomeOrli");
-            textoNomePerfil.text = nomeSalvo; // Atualiza o texto do perfil
-            textoNomeHome.text = nomeSalvo;   // Atualiza o texto da home
+            textoNome.text = nomeSalvo; // Atualiza o texto do perfil
         }
     }
 
@@ -28,8 +26,7 @@ public class SalvarNomeOrli : MonoBehaviour
             PlayerPrefs.SetString("NomeOrli", novoNome);
             PlayerPrefs.Save(); // Salva permanentemente
 
-            textoNomePerfil.text = novoNome; // Atualiza o texto do perfil
-            textoNomeHome.text = novoNome;   // Atualiza o texto da home
+            textoNome.text = novoNome; // Atualiza o texto do perfil
         }
     }
 }

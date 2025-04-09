@@ -868,9 +868,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -112.1, y: 17.5}
+  m_AnchoredPosition: {x: -113.2, y: 15.7}
   m_SizeDelta: {x: 19.1831, y: 19.1831}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.4398681, y: 0.41409552}
 --- !u!222 &6878289836366111571
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -892,14 +892,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9450981, g: 0.97647065, b: 0.97647065, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 09ba8f91d39788c4ea5c0dc79396b3cb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0ecfd0605545e704aa9cea31c31787f0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1709,8 +1709,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -179.98254, y: -13.031525}
-  m_SizeDelta: {x: 160, y: 20}
+  m_AnchoredPosition: {x: -225.8, y: -22.077}
+  m_SizeDelta: {x: 51.9022, y: 38.0909}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &6418736034505023700
 MonoBehaviour:
@@ -3188,6 +3188,7 @@ GameObject:
   - component: {fileID: 5423669201754294470}
   - component: {fileID: 2210004239795175044}
   - component: {fileID: 5710594315750549200}
+  - component: {fileID: 9126500778219540121}
   m_Layer: 5
   m_Name: "vibra\xE7ao"
   m_TagString: Untagged
@@ -3296,7 +3297,33 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2210004239795175044}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 9126500778219540121}
+        m_TargetAssemblyTypeName: TrocaPagina, Assembly-CSharp
+        m_MethodName: MudarPagina
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &9126500778219540121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697837288057008022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bf9143d689251a4c8c8737d20e0de88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paginaMostrar: {fileID: 0}
+  paginaEsconder: {fileID: 9163050545909956737}
 --- !u!1 &1789860397505148526
 GameObject:
   m_ObjectHideFlags: 0
@@ -8526,6 +8553,8 @@ GameObject:
   - component: {fileID: 4574449441921823669}
   - component: {fileID: 2463901187702230033}
   - component: {fileID: 5995980500309357107}
+  - component: {fileID: 6814768172549825583}
+  - component: {fileID: 3989931790442802022}
   m_Layer: 5
   m_Name: auraButton
   m_TagString: Untagged
@@ -8549,9 +8578,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 141.5, y: 354.61}
-  m_SizeDelta: {x: 43.639, y: 40.622}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 144.2, y: 365.6}
+  m_SizeDelta: {x: 37.9093, y: 35.2885}
+  m_Pivot: {x: 0.5, y: 0.7217522}
 --- !u!222 &1105690414398190351
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8633,7 +8662,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4574449441921823669}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6814768172549825583}
+        m_TargetAssemblyTypeName: TrocaPagina, Assembly-CSharp
+        m_MethodName: MudarPagina
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &5995980500309357107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8657,6 +8698,37 @@ MonoBehaviour:
   - {fileID: 6195581951648437644, guid: d2da6af67464ad142ae0edfcf3ef5405, type: 3}
   - {fileID: -2846076640506075743, guid: 495aaa7cf0db9964497c6a5b95289985, type: 3}
   - {fileID: -7733467696877299753, guid: 7d6e6d58c6cc6fa45bfca59a27df92d5, type: 3}
+--- !u!114 &6814768172549825583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4344608233798082991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bf9143d689251a4c8c8737d20e0de88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paginaMostrar: {fileID: 0}
+  paginaEsconder: {fileID: 9163050545909956737}
+--- !u!114 &3989931790442802022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4344608233798082991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 332b962f171d81d4692c20ebf1e5aa5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auraImage: {fileID: 4574449441921823669}
+  velocidade: 1.2
+  tamanhoMin: 0.8
+  tamanhoMax: 1.2
+  botaoConectar: {fileID: 0}
 --- !u!1 &4418250950073890594
 GameObject:
   m_ObjectHideFlags: 0
@@ -15314,6 +15386,7 @@ GameObject:
   - component: {fileID: 442192287119156576}
   - component: {fileID: 3325402685735382292}
   - component: {fileID: 3101976812103255005}
+  - component: {fileID: 2544449346032262945}
   m_Layer: 5
   m_Name: luz
   m_TagString: Untagged
@@ -15422,7 +15495,33 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3325402685735382292}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2544449346032262945}
+        m_TargetAssemblyTypeName: TrocaPagina, Assembly-CSharp
+        m_MethodName: MudarPagina
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2544449346032262945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7166320014706778423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bf9143d689251a4c8c8737d20e0de88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paginaMostrar: {fileID: 0}
+  paginaEsconder: {fileID: 9163050545909956737}
 --- !u!1 &7191631947139333400
 GameObject:
   m_ObjectHideFlags: 0
@@ -19445,7 +19544,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2837164594026781782
 RectTransform:
   m_ObjectHideFlags: 0
