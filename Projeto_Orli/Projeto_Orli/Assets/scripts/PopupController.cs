@@ -1,18 +1,18 @@
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class PopupController : MonoBehaviour
 {
-    public GameObject popupPanel; // Referência ao painel do pop-up
-    public Button yesButton;      // Botão "Sim"
-    public Button noButton;       // Botão "Não"
+    public GameObject popupPanel;     // Painel do pop-up de confirmação
+    public GameObject homePanel;      // Painel que será ativado quando clicar "Sim"
+    public Button yesButton;          // Botão "Sim"
+    public Button noButton;           // Botão "Não"
 
     void Start()
     {
-        // Adiciona ouvintes aos botões
         yesButton.onClick.AddListener(OnYesButtonClicked);
         noButton.onClick.AddListener(OnNoButtonClicked);
+        Debug.Log("Listeners adicionados.");
     }
 
     // Método para exibir o pop-up
@@ -24,16 +24,15 @@ public class PopupController : MonoBehaviour
     // Ação ao clicar em "Sim"
     void OnYesButtonClicked()
     {
-        // Lógica para apagar a configuração, se necessário
         Debug.Log("Configuração apagada.");
 
-        // Carrega a cena "home"
-        SceneManager.LoadScene("home");
+        popupPanel.SetActive(false);  // Fecha o pop-up
+        homePanel.SetActive(true);    // Mostra o painel "home"
     }
 
     // Ação ao clicar em "Não"
     void OnNoButtonClicked()
     {
-        popupPanel.SetActive(false);
+        popupPanel.SetActive(false); // Só fecha o pop-up
     }
 }

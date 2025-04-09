@@ -2376,6 +2376,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   popupPanel: {fileID: 1193161836562916634}
+  homePanel: {fileID: 5633513526290550857}
   yesButton: {fileID: 7336682161885346088}
   noButton: {fileID: 8520022564263132634}
 --- !u!1 &1211759214087943442
@@ -10813,6 +10814,7 @@ GameObject:
   - component: {fileID: 1450448157314662395}
   - component: {fileID: 119816900121951753}
   - component: {fileID: 7336682161885346088}
+  - component: {fileID: 7140817191126787425}
   m_Layer: 5
   m_Name: yesButton
   m_TagString: Untagged
@@ -10921,7 +10923,33 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 119816900121951753}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7140817191126787425}
+        m_TargetAssemblyTypeName: TrocaPagina, Assembly-CSharp
+        m_MethodName: MudarPagina
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &7140817191126787425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5290457293754634058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bf9143d689251a4c8c8737d20e0de88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paginaMostrar: {fileID: 5633513526290550857}
+  paginaEsconder: {fileID: 7490205339932494560}
 --- !u!1 &5319335630776091879
 GameObject:
   m_ObjectHideFlags: 0
@@ -17127,7 +17155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 101.8, y: -1.6663017}
+  m_AnchoredPosition: {x: 81.3, y: -1.6663017}
   m_SizeDelta: {x: 86.8504, y: 90.8524}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2415695092861426181

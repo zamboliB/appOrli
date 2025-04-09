@@ -9,8 +9,8 @@ public class EmotionGraphManager : MonoBehaviour
 
     void Start()
     {
-        // Definir valores iniciais de teste
-        SetEmotionData(new int[9]);
+        // Definir valores iniciais de teste maiores que 0
+        SetEmotionData(new int[] { 1, 2, 3, 4, 5, 2, 1, 0, 3 });
     }
 
     // Função para atualizar os valores do gráfico
@@ -21,6 +21,7 @@ public class EmotionGraphManager : MonoBehaviour
             UpdateEmotionBar(i, emotionValues[i]);
         }
     }
+
     public void UpdateSingleEmotion(int emotionIndex)
     {
         if (emotionIndex >= 0 && emotionIndex < emotionValues.Length)
@@ -33,6 +34,7 @@ public class EmotionGraphManager : MonoBehaviour
             UpdateGraph(); // Atualiza o gráfico com o novo valor
         }
     }
+
     // Atualiza uma única barra de emoção
     void UpdateEmotionBar(int index, int value)
     {
@@ -57,7 +59,6 @@ public class EmotionGraphManager : MonoBehaviour
     {
         emotionValues = newValues;
         UpdateGraph();
-
     }
 
     // **Nova função para ativar/desativar o gráfico**
