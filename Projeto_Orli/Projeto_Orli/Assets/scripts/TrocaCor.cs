@@ -19,42 +19,40 @@ public class TrocaCor : MonoBehaviour
             todosToggles.Add(this);
         }
 
-        // Se nenhum estiver ativo, ativa automaticamente o primeiro toggle
-        if (!AlgumToggleAtivo())
-        {
-            Ativar(); // Ativa este toggle se nenhum outro estiver ativo
-        }
-        else
-        {
-            AtualizarCor(ativo); // Atualiza a cor de acordo com o estado atual
-        }
+        // Atualiza a cor de acordo com o estado inicial
+        AtualizarCor(ativo);
     }
 
     public void TrocarCor()
     {
         if (!ativo)
         {
-            // Desativa todos os outros antes de ativar este
+            // Desativa todos os outros toggles antes de ativar este
             foreach (var toggle in todosToggles)
             {
                 toggle.Desativar();
             }
 
-            Ativar(); // Ativa este toggle
+            Ativar();
+        }
+        else
+        {
+            // Se já está ativo, apenas desativa este toggle
+            Desativar();
         }
     }
 
     private void Ativar()
     {
-        check.SetActive(true);  // Exibe o ícone de check
-        gameObject.GetComponent<Image>().color = corAtivo;  // Altera a cor do background
+        check.SetActive(true);  // Exibe o ícone de "check"
+        gameObject.GetComponent<Image>().color = corAtivo;  // Altera a cor para o estado ativo
         ativo = true;  // Marca este toggle como ativo
     }
 
     private void Desativar()
     {
-        check.SetActive(false);  // Remove o ícone de check
-        gameObject.GetComponent<Image>().color = corDesativo;  // Altera a cor do background
+        check.SetActive(false);  // Remove o ícone de "check"
+        gameObject.GetComponent<Image>().color = corDesativo;  // Altera a cor para o estado desativo
         ativo = false;  // Marca este toggle como desativado
     }
 
@@ -62,24 +60,11 @@ public class TrocaCor : MonoBehaviour
     {
         if (estadoAtivo)
         {
-            Ativar();  // Ativa o toggle se o estado for ativo
+            Ativar();
         }
         else
         {
-            Desativar();  // Desativa o toggle se o estado for desativo
+            Desativar();
         }
-    }
-
-    // Método que verifica se há pelo menos um toggle ativo
-    private bool AlgumToggleAtivo()
-    {
-        foreach (var toggle in todosToggles)
-        {
-            if (toggle.ativo)
-            {
-                return true;  // Retorna verdadeiro se encontrar algum toggle ativo
-            }
-        }
-        return false;  // Retorna falso se nenhum toggle estiver ativo
     }
 }

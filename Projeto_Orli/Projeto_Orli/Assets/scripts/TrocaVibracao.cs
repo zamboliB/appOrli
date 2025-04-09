@@ -19,7 +19,7 @@ public class TrocaVibracao : MonoBehaviour
             todosToggles.Add(this);
         }
 
-        // Define a cor inicial
+        // Atualiza a cor de acordo com o estado inicial
         AtualizarCor(ativo);
     }
 
@@ -30,16 +30,14 @@ public class TrocaVibracao : MonoBehaviour
             // Desativa todos os outros toggles antes de ativar este
             foreach (var toggle in todosToggles)
             {
-                if (toggle != this)
-                {
-                    toggle.Desativar();
-                }
+                toggle.Desativar();
             }
 
             Ativar();
         }
         else
         {
+            // Se já está ativo, apenas desativa este toggle
             Desativar();
         }
     }
@@ -51,7 +49,7 @@ public class TrocaVibracao : MonoBehaviour
         ativo = true;
     }
 
-    public void Desativar()
+    private void Desativar()
     {
         check.SetActive(false); // Esconde o ícone de "check"
         gameObject.GetComponent<Image>().color = corDesativo; // Muda a cor para o estado desativo

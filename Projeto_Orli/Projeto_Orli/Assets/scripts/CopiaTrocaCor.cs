@@ -19,7 +19,7 @@ public class CopiaTrocaCor : MonoBehaviour
             todosToggles.Add(this);
         }
 
-        // Se nenhum estiver ativo, ativa automaticamente o primeiro
+        // Se nenhum estiver ativo, ativa automaticamente este toggle
         if (!AlgumToggleAtivo())
         {
             Ativar(); // Ativa este toggle, caso nenhum esteja ativo
@@ -42,11 +42,22 @@ public class CopiaTrocaCor : MonoBehaviour
 
             Ativar(); // Ativa este toggle
         }
+        else
+        {
+            // Desativa este toggle
+            Desativar();
+
+            // Verifica se algum outro toggle está ativo. Caso contrário, reativa este.
+            if (!AlgumToggleAtivo())
+            {
+                Ativar(); // Garante que pelo menos um toggle estará ativo
+            }
+        }
     }
 
     private void Ativar()
     {
-        check.SetActive(true); // Exibe o ícone de "check" ou algo visual que indica que está ativo
+        check.SetActive(true); // Exibe o ícone de "check"
         gameObject.GetComponent<Image>().color = corAtivo; // Muda a cor do toggle para a ativa
         ativo = true; // Marca como ativo
     }
