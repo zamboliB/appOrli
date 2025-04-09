@@ -3,19 +3,19 @@ using UnityEngine.UI;
 
 public class TogglePadrao : MonoBehaviour
 {
-    public Toggle togglePadrao; // Toggle que controla o botão "Padrão"
-    public Toggle toggleFritz; // Referência ao outro toggle
-    public Button botaoPadrao; // Botão "Padrão"
+    public Toggle togglePadrao;   // Toggle que controla o botão "Padrão"
+    public Toggle toggleFritz;    // Toggle do botão "Fritz"
+    public Toggle toggleMimi;     // Toggle do botão "Mimi"
+    public Button botaoPadrao;    // Botão "Padrão"
 
-    public Sprite filledSprite;  // Imagem quando ativado
-    public Sprite emptySprite;   // Imagem quando desativado
+    public Sprite filledSprite;   // Imagem quando ativado
+    public Sprite emptySprite;    // Imagem quando desativado
 
     private Image botaoImage;
 
     void Start()
     {
         botaoImage = botaoPadrao.GetComponent<Image>();
-
         togglePadrao.onValueChanged.AddListener(UpdateButtonAppearance);
         UpdateButtonAppearance(togglePadrao.isOn);
     }
@@ -24,9 +24,13 @@ public class TogglePadrao : MonoBehaviour
     {
         botaoImage.sprite = isOn ? filledSprite : emptySprite;
 
-        if (isOn && toggleFritz.isOn)
+        if (isOn)
         {
-            toggleFritz.isOn = false;
+            if (toggleFritz.isOn)
+                toggleFritz.isOn = false;
+
+            if (toggleMimi.isOn)
+                toggleMimi.isOn = false;
         }
     }
 }

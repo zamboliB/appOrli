@@ -3,9 +3,10 @@ using UnityEngine.UI;
 
 public class ToggleFritz : MonoBehaviour
 {
-    public Toggle toggleFritz; // Toggle que controla o botão "Fritz"
-    public Toggle togglePadrao; // Referência ao outro toggle
-    public Button botaoFritz; // Botão "Fritz"
+    public Toggle toggleFritz;   // Toggle que controla o botão "Fritz"
+    public Toggle togglePadrao;  // Toggle do botão "Padrão"
+    public Toggle toggleMimi;    // Toggle do botão "Mimi"
+    public Button botaoFritz;    // Botão "Fritz"
 
     public Sprite filledSprite;  // Imagem quando ativado
     public Sprite emptySprite;   // Imagem quando desativado
@@ -15,7 +16,6 @@ public class ToggleFritz : MonoBehaviour
     void Start()
     {
         botaoImage = botaoFritz.GetComponent<Image>();
-
         toggleFritz.onValueChanged.AddListener(UpdateButtonAppearance);
         UpdateButtonAppearance(toggleFritz.isOn);
     }
@@ -24,9 +24,14 @@ public class ToggleFritz : MonoBehaviour
     {
         botaoImage.sprite = isOn ? filledSprite : emptySprite;
 
-        if (isOn && togglePadrao.isOn)
+        if (isOn)
         {
-            togglePadrao.isOn = false;
+            if (togglePadrao.isOn)
+                togglePadrao.isOn = false;
+
+            if (toggleMimi.isOn)
+                toggleMimi.isOn = false;
         }
     }
 }
+
