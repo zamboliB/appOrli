@@ -32,6 +32,8 @@ public class ColorPick : MonoBehaviour, IPointerClickHandler
             // Sample the color from the texture at that point
             Color clickedColor = texture.GetPixel((int)textureCoords.x, (int)textureCoords.y);
             objeto.GetComponent<Image>().color = clickedColor;
+
+
             // Log the color
             Debug.Log("Clicked sprite color: " + clickedColor);
         }
