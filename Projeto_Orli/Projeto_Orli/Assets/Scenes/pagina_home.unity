@@ -1025,6 +1025,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 779213189}
     m_Modifications:
+    - target: {fileID: 318450077761003153, guid: 3ab98a1ddf52a634e941139931a513c1, type: 3}
+      propertyPath: m_Name
+      value: InputVibracaoNome
+      objectReference: {fileID: 0}
     - target: {fileID: 2320306049651550920, guid: 3ab98a1ddf52a634e941139931a513c1, type: 3}
       propertyPath: 'panelsWithoutTabBar.Array.data[0]'
       value: 
@@ -1121,13 +1125,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3437255692771897448, guid: 3ab98a1ddf52a634e941139931a513c1, type: 3}
+      propertyPath: m_Name
+      value: InputNomeLuz
+      objectReference: {fileID: 0}
     - target: {fileID: 3989931790442802022, guid: 3ab98a1ddf52a634e941139931a513c1, type: 3}
       propertyPath: botaoConectar
       value: 
       objectReference: {fileID: 1957680970}
     - target: {fileID: 4101142765431118940, guid: 3ab98a1ddf52a634e941139931a513c1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4678653855657675024, guid: 3ab98a1ddf52a634e941139931a513c1, type: 3}
       propertyPath: m_IsActive
@@ -1135,7 +1143,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5633513526290550857, guid: 3ab98a1ddf52a634e941139931a513c1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6814768172549825583, guid: 3ab98a1ddf52a634e941139931a513c1, type: 3}
       propertyPath: paginaMostrar
