@@ -119,11 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &269196794 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3043585705449102914, guid: 3ab98a1ddf52a634e941139931a513c1, type: 3}
-  m_PrefabInstance: {fileID: 6895830746310661769}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &390733914
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -234,7 +229,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5815429558860705070, guid: efab2de1eef11944180e808697766119, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6236195798937100246, guid: efab2de1eef11944180e808697766119, type: 3}
       propertyPath: textoNome
@@ -314,7 +309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bf9143d689251a4c8c8737d20e0de88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paginaMostrar: {fileID: 269196794}
+  paginaMostrar: {fileID: 1612336608}
   paginaEsconder: {fileID: 1896900800}
 --- !u!1 &519420028
 GameObject:
@@ -550,7 +545,7 @@ GameObject:
   - component: {fileID: 779213187}
   - component: {fileID: 779213186}
   m_Layer: 5
-  m_Name: home
+  m_Name: Canvas Geral
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -673,42 +668,6 @@ PrefabInstance:
       propertyPath: graphManager
       value: 
       objectReference: {fileID: 1817515887}
-    - target: {fileID: 3137835209949942794, guid: e60e84e288cea6c4fb88dd4c88739d5c, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3137835209949942794, guid: e60e84e288cea6c4fb88dd4c88739d5c, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3137835209949942794, guid: e60e84e288cea6c4fb88dd4c88739d5c, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1389593031}
-    - target: {fileID: 3137835209949942794, guid: e60e84e288cea6c4fb88dd4c88739d5c, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 1389593031}
-    - target: {fileID: 3137835209949942794, guid: e60e84e288cea6c4fb88dd4c88739d5c, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3137835209949942794, guid: e60e84e288cea6c4fb88dd4c88739d5c, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: MudarPagina
-      objectReference: {fileID: 0}
-    - target: {fileID: 3137835209949942794, guid: e60e84e288cea6c4fb88dd4c88739d5c, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: MudarPagina
-      objectReference: {fileID: 0}
-    - target: {fileID: 3137835209949942794, guid: e60e84e288cea6c4fb88dd4c88739d5c, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: TrocaPagina, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 3137835209949942794, guid: e60e84e288cea6c4fb88dd4c88739d5c, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 3687301481838221176, guid: e60e84e288cea6c4fb88dd4c88739d5c, type: 3}
       propertyPath: m_Name
       value: PaginasSentimentos
@@ -717,6 +676,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4317394586592167739, guid: e60e84e288cea6c4fb88dd4c88739d5c, type: 3}
+      propertyPath: paginaMostrar
+      value: 
+      objectReference: {fileID: 396860747}
     - target: {fileID: 4595363841180649652, guid: e60e84e288cea6c4fb88dd4c88739d5c, type: 3}
       propertyPath: paginaMostrar
       value: 
@@ -752,18 +715,6 @@ PrefabInstance:
     - target: {fileID: 5155413342398932911, guid: e60e84e288cea6c4fb88dd4c88739d5c, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5155413342398932911, guid: e60e84e288cea6c4fb88dd4c88739d5c, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5155413342398932911, guid: e60e84e288cea6c4fb88dd4c88739d5c, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5155413342398932911, guid: e60e84e288cea6c4fb88dd4c88739d5c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5155413342398932911, guid: e60e84e288cea6c4fb88dd4c88739d5c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -817,21 +768,9 @@ PrefabInstance:
       propertyPath: paginaMostrar
       value: 
       objectReference: {fileID: 396860747}
-    - target: {fileID: 6277456897812423264, guid: e60e84e288cea6c4fb88dd4c88739d5c, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6277456897812423264, guid: e60e84e288cea6c4fb88dd4c88739d5c, type: 3}
-      propertyPath: paginaMostrar
-      value: 
-      objectReference: {fileID: 396860747}
-    - target: {fileID: 6277456897812423264, guid: e60e84e288cea6c4fb88dd4c88739d5c, type: 3}
-      propertyPath: paginaEsconder
-      value: 
-      objectReference: {fileID: 1992130743}
-    - target: {fileID: 7148430906131594587, guid: e60e84e288cea6c4fb88dd4c88739d5c, type: 3}
+    - target: {fileID: 7695516735723754473, guid: e60e84e288cea6c4fb88dd4c88739d5c, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -867,17 +806,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   paginaMostrar: {fileID: 396860747}
   paginaEsconder: {fileID: 981606945}
---- !u!114 &1389593031 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6277456897812423264, guid: e60e84e288cea6c4fb88dd4c88739d5c, type: 3}
-  m_PrefabInstance: {fileID: 1083405851}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0bf9143d689251a4c8c8737d20e0de88, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1581519700
 GameObject:
   m_ObjectHideFlags: 0
@@ -957,6 +885,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1612336608 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1372533580574193952, guid: 3ab98a1ddf52a634e941139931a513c1, type: 3}
+  m_PrefabInstance: {fileID: 6895830746310661769}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1627763407 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1690649264730427877, guid: efab2de1eef11944180e808697766119, type: 3}
@@ -1083,8 +1016,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 390799623841574036, guid: 3ab98a1ddf52a634e941139931a513c1, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1873941924482089251, guid: 3ab98a1ddf52a634e941139931a513c1, type: 3}
+      propertyPath: m_text
+      value: "\u200B"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1925090707126551793, guid: 3ab98a1ddf52a634e941139931a513c1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3190166939690826786, guid: 5279ecb0db0f554489df0bd21ccd6d88, type: 3}
     - target: {fileID: 1964360377758281484, guid: 3ab98a1ddf52a634e941139931a513c1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -1129,6 +1070,10 @@ PrefabInstance:
       propertyPath: 'panelsWithoutTabBar.Array.data[3]'
       value: 
       objectReference: {fileID: 981606945}
+    - target: {fileID: 2325104356665017525, guid: 3ab98a1ddf52a634e941139931a513c1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 606826292420474563, guid: 510d7ee1552b63a47887f406bfeea0ca, type: 3}
     - target: {fileID: 2837164594026781782, guid: 3ab98a1ddf52a634e941139931a513c1, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1209,22 +1154,42 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3043585705449102914, guid: 3ab98a1ddf52a634e941139931a513c1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3352198358485382790, guid: 3ab98a1ddf52a634e941139931a513c1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3899370181561618838, guid: 3ab98a1ddf52a634e941139931a513c1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3190166939690826786, guid: 5279ecb0db0f554489df0bd21ccd6d88, type: 3}
     - target: {fileID: 3989931790442802022, guid: 3ab98a1ddf52a634e941139931a513c1, type: 3}
       propertyPath: botaoConectar
       value: 
       objectReference: {fileID: 1957680970}
     - target: {fileID: 4101142765431118940, guid: 3ab98a1ddf52a634e941139931a513c1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4678653855657675024, guid: 3ab98a1ddf52a634e941139931a513c1, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5328096690830278693, guid: 3ab98a1ddf52a634e941139931a513c1, type: 3}
+      propertyPath: m_text
+      value: Nome
+      objectReference: {fileID: 0}
     - target: {fileID: 5633513526290550857, guid: 3ab98a1ddf52a634e941139931a513c1, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6270252523926715217, guid: 3ab98a1ddf52a634e941139931a513c1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 606826292420474563, guid: 510d7ee1552b63a47887f406bfeea0ca, type: 3}
     - target: {fileID: 6814768172549825583, guid: 3ab98a1ddf52a634e941139931a513c1, type: 3}
       propertyPath: paginaMostrar
       value: 
@@ -1233,6 +1198,10 @@ PrefabInstance:
       propertyPath: GameManager
       value: 
       objectReference: {fileID: 1973799791}
+    - target: {fileID: 8631254695211223360, guid: 3ab98a1ddf52a634e941139931a513c1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9163050545909956737, guid: 3ab98a1ddf52a634e941139931a513c1, type: 3}
       propertyPath: m_Name
       value: Paginas_home
