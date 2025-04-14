@@ -1286,7 +1286,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &3092467451612429595
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3203,9 +3203,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SalvarNomeOrli, Assembly-CSharp
-        m_MethodName: SalvarNome
+      - m_Target: {fileID: 1690649264730427877}
+        m_TargetAssemblyTypeName: TrocaPagina, Assembly-CSharp
+        m_MethodName: MudarPagina
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3215,9 +3215,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1690649264730427877}
-        m_TargetAssemblyTypeName: TrocaPagina, Assembly-CSharp
-        m_MethodName: MudarPagina
+      - m_Target: {fileID: 6236195798937100246}
+        m_TargetAssemblyTypeName: SalvarNomeOrli, Assembly-CSharp
+        m_MethodName: SalvarNome
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3240,7 +3240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   paginaMostrar: {fileID: 0}
-  paginaEsconder: {fileID: 7873437177082939434}
+  paginaEsconder: {fileID: 5815429558860705070}
 --- !u!114 &6236195798937100246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4507,6 +4507,7 @@ GameObject:
   - component: {fileID: 6246402863161274908}
   - component: {fileID: 7761673128353293970}
   - component: {fileID: 7333941353793675131}
+  - component: {fileID: 9130404658802722146}
   m_Layer: 5
   m_Name: Pagina_ConectandoQuatro
   m_TagString: Untagged
@@ -4577,6 +4578,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &9130404658802722146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7873437177082939434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bf9143d689251a4c8c8737d20e0de88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paginaMostrar: {fileID: 0}
+  paginaEsconder: {fileID: 5815429558860705070}
 --- !u!1 &9075444544313855576
 GameObject:
   m_ObjectHideFlags: 0

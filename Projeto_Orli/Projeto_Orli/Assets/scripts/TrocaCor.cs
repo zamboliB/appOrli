@@ -4,56 +4,76 @@ using UnityEngine.UI;
 
 public class TrocaCor : MonoBehaviour
 {
+    [Header("Cores")]
     public Color corAtivo;
     public Color corDesativo;
+
+    [Header("Estado inicial")]
     public bool ativo;
+
+    [Header("Referência ao check (ícone)")]
     public GameObject check;
 
-    private static List<TrocaCor> todosToggles = new List<TrocaCor>(); // Lista global de todos os toggles
+    // Lista global com todos os toggles
+    private static List<TrocaCor> todosToggles = new List<TrocaCor>();
+
+    // Cache do componente Image (melhor performance)
+    private Image imagem;
 
     void Start()
     {
-        // Adiciona este toggle à lista
+        imagem = GetComponent<Image>();
+
         if (!todosToggles.Contains(this))
         {
             todosToggles.Add(this);
         }
 
-        // Atualiza a cor de acordo com o estado inicial
         AtualizarCor(ativo);
+
+        // Garante que pelo menos um toggle fique ativo
+        if (!todosToggles.Exists(t => t.ativo))
+        {
+            Ativar();
+        }
     }
 
     public void TrocarCor()
     {
-        if (!ativo)
-        {
-            // Desativa todos os outros toggles antes de ativar este
-            foreach (var toggle in todosToggles)
-            {
-                toggle.Desativar();
-            }
+        // Se já está ativo, não faz nada
+        if (ativo)
+            return;
 
-            Ativar();
-        }
-        else
+        // Desativa todos os outros
+        foreach (var toggle in todosToggles)
         {
-            // Se já está ativo, apenas desativa este toggle
-            Desativar();
+            toggle.Desativar();
         }
+
+        // Ativa este
+        Ativar();
     }
 
     private void Ativar()
     {
-        check.SetActive(true);  // Exibe o ícone de "check"
-        gameObject.GetComponent<Image>().color = corAtivo;  // Altera a cor para o estado ativo
-        ativo = true;  // Marca este toggle como ativo
+        if (check != null)
+            check.SetActive(true);
+
+        if (imagem != null)
+            imagem.color = corAtivo;
+
+        ativo = true;
     }
 
     private void Desativar()
     {
-        check.SetActive(false);  // Remove o ícone de "check"
-        gameObject.GetComponent<Image>().color = corDesativo;  // Altera a cor para o estado desativo
-        ativo = false;  // Marca este toggle como desativado
+        if (check != null)
+            check.SetActive(false);
+
+        if (imagem != null)
+            imagem.color = corDesativo;
+
+        ativo = false;
     }
 
     private void AtualizarCor(bool estadoAtivo)
